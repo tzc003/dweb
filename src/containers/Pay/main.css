@@ -1,0 +1,1261 @@
+@font-face {
+  font-family: "Avenir-Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Roman.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 55 Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Oblique.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Light.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 35 Light Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-LightOblique.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Book.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 45 Book Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-BookOblique.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 65 Medium Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-MediumOblique.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Heavy.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 85 Heavy Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-HeavyOblique.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-Black.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Avenir LT Std 95 Black Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/AvenirLTStd-BlackOblique.woff") format("woff")
+}
+
+body {
+  margin: 0;
+  background: #fafafa
+}
+
+* {
+  box-sizing: border-box;
+  outline: none
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.clear {
+  clear: both
+}
+
+.hidden {
+  display: none !important
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none
+}
+
+.custom-radio {
+  list-style: none;
+  margin: 10px 0 0 24px;
+  padding: 0;
+  float: left
+}
+
+.custom-radio li {
+  position: relative;
+  float: left
+}
+
+.mt-100 {
+  margin-top: 100px
+}
+
+.custom-radio li input[type=radio] {
+  position: absolute;
+  visibility: hidden
+}
+
+.custom-radio li label {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-family: 'latoregular';
+  color: #4a4a4a;
+  padding: 0px 0px 0px 22px;
+  margin: 0px 16px 0 0;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  text-align: left
+}
+
+.custom-radio li .check {
+  display: block;
+  position: absolute;
+  border: 2px solid #767676;
+  border-radius: 100%;
+  height: 17px;
+  width: 17px;
+  top: 3%;
+  left: 0px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear
+}
+
+.custom-radio li .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 9px;
+  width: 9px;
+  top: 2px;
+  left: 2px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear
+}
+
+input[type=radio]:checked ~ .check {
+  border: 2px solid #4bc5ac
+}
+
+input[type=radio]:checked ~ .check::before {
+  background: #4bc5ac
+}
+
+input[type=radio]:checked ~ label {
+  color: #4bc5ac
+}
+
+.center-align {
+  text-align: center
+}
+
+.cmn-btn {
+  border-radius: 100px;
+  border: solid 1px #43c6ac;
+  min-width: 108px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: 'latosemibold';
+  color: #43c6ac;
+  padding: 0 20px;
+  background: #fff;
+  display: inline-block;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 5px
+}
+
+.cmn-btn.bg {
+  background: #43c6ac;
+  box-shadow: 0 2px 3px 0 rgba(67, 198, 171, 0.6);
+  color: #fff
+}
+
+.cmn-btn:hover:not(.disabled) {
+  background: #43c6ac;
+  box-shadow: 0 2px 3px 0 rgba(67, 198, 171, 0.6);
+  color: #fff
+}
+
+.cmn-btn.disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none
+}
+
+.cmn-btn.logo-update-button {
+  min-width: 50%;
+  margin-top: 40px
+}
+
+.cmn-btn.logo-btn {
+  margin-left: 0px
+}
+
+.cmn-btn.confirmation-btn {
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: 0.9px
+}
+
+.is-loading, .is-waiting {
+  color: transparent;
+  pointer-events: none;
+  position: relative
+}
+
+.is-loading:after, .is-waiting:after {
+  -webkit-animation: spin 500ms infinite linear;
+  animation: spin 500ms infinite linear;
+  border: 2px solid #dbdbdb;
+  border-radius: 50px;
+  border-color: transparent transparent #fff #fff;
+  content: "";
+  display: block;
+  height: 1em;
+  width: 1em;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute
+}
+
+.is-waiting {
+  color: white;
+  padding-left: 20px
+}
+
+.is-waiting:after {
+  left: calc(25% - (1em / 2))
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.download-box {
+  position: fixed;
+  z-index: 999;
+  border-radius: 5px 5px 0 0;
+  bottom: 0;
+  right: 80px;
+  width: 237px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.25s linear
+}
+
+.download-box h3 {
+  background-color: #43c6ac;
+  padding: 15px 24px 13px 24px;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'latomedium';
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  min-height: 42px
+}
+
+.download-box h3:after {
+  float: right;
+  background: url(../../assets/images/dropdownup.svg) no-repeat 0 0;
+  content: "";
+  width: 12px;
+  height: 8px;
+  margin-top: 3px;
+  display: none
+}
+
+.download-box h3 img.ldr {
+  display: inline-block;
+  margin: -2px 0 0 10px
+}
+
+.download-box ul.dwnld-qu {
+  list-style: none;
+  padding: 5px 24px;
+  display: block
+}
+
+.download-box ul.dwnld-qu li {
+  padding: 15px 0 15px 0;
+  color: #5b5b5b;
+  font-size: 12px;
+  font-family: 'latomedium';
+  cursor: pointer;
+  display: inline-block;
+  width: 100%
+}
+
+.download-box ul.dwnld-qu li:before {
+  float: right;
+  content: "";
+  background: url(../../assets/images/downloadicon.svg) no-repeat 0 0;
+  width: 19px;
+  height: 19px;
+  display: none
+}
+
+.download-box ul.dwnld-qu li img.ldr-img {
+  float: right;
+  display: block
+}
+
+.download-box ul.dwnld-qu li span.txt-lmt {
+  float: left;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.download-box.close h3:after {
+  background: url(../../assets/images/dwnarrw.svg) no-repeat 0 0
+}
+
+.download-box.close ul.dwnld-qu {
+  display: none
+}
+
+.download-box.download ul.dwnld-qu li {
+  color: #43c6ac
+}
+
+.download-box.download ul.dwnld-qu li img.ldr-img {
+  display: none
+}
+
+.download-box.download ul.dwnld-qu li:before {
+  display: block
+}
+
+.circle-notification {
+  width: 10px;
+  height: 10px;
+  background-color: #e25517;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 20px
+}
+
+.new-notification {
+  background-color: #e25517;
+  color: white;
+  padding: 0 3px;
+  font-size: 7px;
+  width: auto;
+  height: 11px;
+  margin-right: 0;
+  position: relative;
+  bottom: 10px;
+  right: -2px
+}
+
+.new-notification.payouts-notification {
+  border-radius: 2px;
+  right: -11px;
+  bottom: 3px;
+  box-shadow: 0 2px 3px 0 #e2551a;
+  padding: 2px 3px 2px 3px
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset
+}
+
+.width-50 {
+  width: 50px
+}
+
+.width-75 {
+  width: 75px
+}
+
+.margin-auto {
+  margin: 0 auto
+}
+
+.width-250 {
+  width: 250px
+}
+
+.width-200 {
+  width: 200px
+}
+
+.pl-15 {
+  padding-left: 15px
+}
+
+.pl-25 {
+  padding-left: 25px
+}
+
+.pt-50 {
+  padding-top: 50px
+}
+
+.padding-30 {
+  padding: 30px
+}
+
+.width-150 {
+  min-width: 150px;
+  width: 150px
+}
+
+.mt-0 {
+  margin-top: 0
+}
+
+.mt-15 {
+  margin-top: 15px
+}
+
+.ml-15 {
+  margin-left: 15px
+}
+
+.ml-15-neg {
+  margin-left: -15px
+}
+
+.mb-16 {
+  margin-bottom: 16px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+.text-center {
+  text-align: center
+}
+
+.p-0 {
+  padding: 0
+}
+
+.m-0 {
+  margin: 0
+}
+
+.inline-block {
+  display: inline-block
+}
+
+.width-10 {
+  width: 10%
+}
+
+.width-85 {
+  width: 85%
+}
+
+.pt-b-10 {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.pl-r-30 {
+  padding-left: 30px;
+  padding-right: 30px
+}
+
+.pb-16 {
+  padding-bottom: 16px
+}
+
+.pt-30 {
+  padding-top: 30px
+}
+
+.pb-30 {
+  padding-bottom: 30px
+}
+
+.d-flex {
+  display: flex
+}
+
+.flex-item {
+  flex: 1
+}
+
+.pt-60 {
+  padding-top: 60px
+}
+
+.pl-30 {
+  padding-left: 30px
+}
+
+.row .width-half {
+  float: left;
+  width: 50%
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: block
+}
+
+.padding-bottom-30pc {
+  padding-bottom: 30%
+}
+
+.yellow-info {
+  font-size: 11px;
+  text-align: left;
+  color: #ebb300;
+  padding-top: 5px
+}
+
+.info-text {
+  font-size: 18px;
+  line-height: 1.28;
+  text-align: center;
+  color: #787878
+}
+
+.info-text.dense {
+  line-height: 0.89
+}
+
+.divider {
+  height: 1px;
+  background-color: #f5f5f5
+}
+
+.drop-down {
+  border-bottom: 1px #cecece solid;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-top: 6px;
+  font-family: 'latomedium'
+}
+
+.drop-down a.select-txt {
+  color: #cecece !important;
+  text-decoration: none;
+  font-size: 12px;
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  padding-bottom: 6px;
+  padding-top: 5px;
+  text-align: left
+}
+
+.drop-down a.select-txt.selected {
+  color: #707070 !important
+}
+
+.drop-down a.select-txt:after {
+  content: "";
+  border: solid #a5a5a5;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  float: right
+}
+
+.drop-down.open ul.openstate {
+  display: block
+}
+
+ul.openstate {
+  font-family: 'latomedium';
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: all 400ms ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 31px;
+  list-style: none;
+  max-width: 136px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  z-index: 99;
+  max-height: 200px;
+  overflow-y: scroll
+}
+
+ul.openstate.agreement-dropdown-openstate {
+  max-width: 175px;
+  top: 34px
+}
+
+ul.openstate li {
+  font-size: 12px;
+  display: inline-block;
+  width: 100%;
+  transition: all 400ms ease-in-out
+}
+
+ul.openstate li a {
+  padding: 12px;
+  color: #a5a5a5 !important;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: left
+}
+
+ul.openstate li:hover {
+  background: #f5f5f5
+}
+
+ul.openstate li:hover a {
+  color: #43c6ac !important
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none
+}
+
+.invoice-main-container {
+  max-width: 812px;
+  width: 100%;
+  left: 235px;
+  padding: 74px 0;
+  position: relative;
+  z-index: 99
+}
+
+.grey-bg {
+  position: absolute;
+  width: 120%;
+  left: 620px;
+  margin-top: -50px;
+  height: 100%;
+  opacity: 0.3;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #fff 0%, #d3d3d3 100%);
+  background: -webkit-linear-gradient(top, #fff 0%, #d3d3d3 100%);
+  background: linear-gradient(to bottom, #fff 0%, #d3d3d3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d3d3d3', GradientType=0);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-188deg);
+  z-index: 9;
+  top: -100px
+}
+
+.msg-container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: fixed;
+  display: flex;
+  z-index: 10001;
+  align-items: center;
+  justify-content: center
+}
+
+.msg-container .inv-msg {
+  font-family: "Avenir-Heavy";
+  font-size: 33px;
+  width: 70%;
+  text-align: center
+}
+
+.invoice-right {
+  margin-left: 428px;
+  background: white;
+  height: 600px
+}
+
+.invoice-right .pay-btn-container {
+  text-align: center;
+  padding-top: 280px
+}
+
+.invoice-right .pay-btn-container .pay-btn {
+  padding: 8px 20px;
+  border: 1px solid #2c2c2c;
+  background: #2c2c2c;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white
+}
+
+.invoice-right .pay-btn-container .pay-btn.is-loading, .invoice-right .pay-btn-container .pay-btn.is-waiting {
+  color: #2c2c2c
+}
+
+.invoice-left {
+  position: relative;
+  width: 428px;
+  min-height: 666px;
+  border-radius: 7px 0 0 7px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Avenir";
+  float: left;
+  font-size: 12px;
+  color: #9d9d9d
+}
+
+.invoice-left a {
+  color: #359bff;
+  text-decoration: none
+}
+
+.invoice-left .footer-tnc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin: auto;
+  padding: 13px;
+  font-size: 13px
+}
+
+.invoice-left .footer-tnc .tnc-link {
+  font-family: "Avenir-Heavy"
+}
+
+.invoice-left .invoice-inner {
+  padding: 58px 38px 10px 38px
+}
+
+.invoice-left .invoice-inner .notes {
+  border: 1px #eaeaea solid;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: gray;
+  width: 290px
+}
+
+.invoice-left .invoice-inner .notes strong {
+  font-family: "Avenir-Heavy"
+}
+
+.invoice-left p {
+  font-size: 12px
+}
+
+.invoice-left p strong {
+  font-size: 14px;
+  font-family: "Avenir-Heavy";
+  color: #2a2a2a
+}
+
+.invoice-left h4 {
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+  line-height: 38px;
+  font-family: "Avenir-Light";
+  font-weight: 100;
+  padding: 15px 0 25px 0
+}
+
+.invoice-left h4 strong {
+  font-family: "Avenir-Heavy"
+}
+
+.invoice-left .payment-option p {
+  padding-bottom: 25px
+}
+
+.invoice-left .payment-option p strong {
+  padding-bottom: 0;
+  display: inline-block
+}
+
+.invoice-left .payment-option p strong.lrg {
+  font-size: 18px;
+  padding-bottom: 7px;
+  display: inline-block;
+  font-family: "Avenir-Medium"
+}
+
+input.invoice-input {
+  border: none;
+  border-bottom: 1px #e0e0e0 solid;
+  font-size: 14px;
+  color: #2c2c2c;
+  background: none;
+  padding-bottom: 5px;
+  width: 186px;
+  margin-left: 26px;
+  transition: all ease-in-out 300ms
+}
+
+input.invoice-input:focus {
+  border-color: #a4a4a4
+}
+
+label.checkbox_custome {
+  display: inline-block;
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: "Avenir-Light";
+  font-size: 12px;
+  width: auto;
+  padding-bottom: 10px;
+  color: #999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+label.checkbox_custome input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0
+}
+
+label.checkbox_custome .checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px #dfdfdf solid;
+  transition: all 400ms ease-in-out
+}
+
+label.checkbox_custome:hover input ~ .checkmark {
+  background-color: #fff
+}
+
+label.checkbox_custome input:checked ~ .checkmark {
+  background-color: #40a0ff;
+  border-color: #40a0ff
+}
+
+label.checkbox_custome .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none
+}
+
+label.checkbox_custome input:checked ~ .checkmark:after {
+  display: block
+}
+
+label.checkbox_custome .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+.invoice-listing {
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-height: 1000px
+}
+
+.invoice-listing.close {
+  max-height: 24px
+}
+
+.invoice-listing a.open-close {
+  color: #359bff;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 0 12px 38px;
+  cursor: pointer
+}
+
+.invoice-listing .listing-container {
+  background: #fbfbfb;
+  padding: 20px 0 20px 38px
+}
+
+.invoice-listing table.listing {
+  font-size: 12px;
+  border-bottom: 1px #f7f7f7 solid;
+  line-height: 19px;
+  padding: 0 20px 8px 0;
+  margin-bottom: 6px
+}
+
+.invoice-listing table.listing.no-border {
+  border: none
+}
+
+.invoice-listing table.listing th {
+  color: #474747;
+  padding-bottom: 3px;
+  font-weight: normal
+}
+
+.invoice-listing table.listing td {
+  color: #9d9d9d;
+  padding: 3px 0
+}
+
+.invoice-listing table.listing td span.drk-txt {
+  color: #474747;
+  font-family: "Avenir-Heavy"
+}
+
+.invoice-listing table.listing td span.amount {
+  color: #474747;
+  font-size: 14px;
+  font-family: "Avenir-Medium";
+  font-weight: normal
+}
+
+.invoice-listing.no-bg a.open-close {
+  color: #474747
+}
+
+.invoice-listing.no-bg .listing-container {
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 0
+}
+
+.invoice-listing.invoice-history .listing-container {
+  padding-left: 40px
+}
+
+.invoice-listing.invoice-history th {
+  font-size: 10px
+}
+
+.invoice-listing.invoice-history td {
+  font-size: 11px
+}
+
+::placeholder, :-ms-input-placeholder, ::-ms-input-placeholder {
+  color: #cfcfcf
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.hide {
+  display: none
+}
+
+.invoice-listing {
+  transition: max-height 0.45s ease-in-out;
+  -moz-transition: max-height 0.45s ease-in-out;
+  -webkit-transition: max-height 0.45s ease-in-out;
+  -o-transition: max-height 0.45s ease-in-out
+}
+
+.invoice-listing.close {
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+  -moz-transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+  -webkit-transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+  -o-transition: max-height 0.35s cubic-bezier(0, 1, 0, 1)
+}
+
+.right-container {
+  width: 367px !important;
+  height: 700px !important;
+  position: relative !important;
+  display: inline-block !important;
+  z-index: 90 !important
+}
+
+.right-container.hide {
+  display: none !important
+}
+
+.left-loader {
+  left: 350px
+}
+
+.right-loader {
+  left: 800px
+}
+
+.left-loader, .right-loader {
+  position: absolute;
+  top: 250px
+}
+
+.left-loader img, .right-loader img {
+  width: 70%;
+  z-index: 9
+}
+
+@media screen and (max-width: 767px) {
+  .grey-bg {
+    display: none
+  }
+
+  .invoice-main-container {
+    left: 0%;
+    padding-top: 0
+  }
+
+  .invoice-left {
+    width: 100%
+  }
+
+  .invoice-left .invoice-inner {
+    padding: 30px 20px 10px 20px
+  }
+
+  .invoice-left .invoice-inner .notes {
+    width: 100%
+  }
+
+  .invoice-listing .listing-container {
+    padding: 20px 20px 20px 20px
+  }
+
+  .invoice-listing a.open-close {
+    margin-left: 20px
+  }
+
+  label.checkbox_custome {
+    width: 100%
+  }
+
+  .listing-container table {
+    width: 100%
+  }
+
+  .pay-btn-container {
+    padding: 0 0 10px 20px
+  }
+
+  .pay-btn-container .pay-btn {
+    padding: 8px 20px;
+    border: 1px solid #2c2c2c;
+    background: #2c2c2c;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white
+  }
+
+  .pay-btn-container .pay-btn.is-loading, .pay-btn-container .pay-btn.is-waiting {
+    color: #2c2c2c
+  }
+
+  .left-loader {
+    left: 47%;
+    top: 50%;
+    margin: -75px 0 0 -50px
+  }
+
+  .left-loader img {
+    size: 100px
+  }
+
+  .right-loader {
+    display: none
+  }
+
+  .bolt-back {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 20000;
+    font-size: 18px;
+    background: #ffffffd6;
+    padding: 0 6px;
+    border-radius: 6px
+  }
+
+  .hide-bolt #boltFrame {
+    display: none !important
+  }
+
+  .hide-bolt .bolt-back {
+    display: none
+  }
+
+  button.inactive {
+    pointer-events: none;
+    opacity: 0.3
+  }
+
+  .is-loading:after, .is-waiting:after {
+    top: calc(50% - (1em / 1.5));
+    border-color: transparent transparent white white
+  }
+}
+
+.payment-completed .error_cntnr {
+  margin: 0 auto;
+  width: 696px
+}
+
+.payment-completed .error_blckcheckout {
+  border: 1px #e2e2e2 solid;
+  background: #fff;
+  padding: 1px;
+  margin-top: 50px
+}
+
+.payment-completed .error_blckcheckout .logo_part {
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 138px;
+  border-bottom: 1px #e2e2e2 solid
+}
+
+.payment-completed h1.logo {
+  width: 160px;
+  height: 46px;
+  background: url(../../assets/images/payumoney-logo.png) no-repeat
+}
+
+.payment-completed .error_blckcheckout .grey_areascheckout {
+  background: #ffffff;
+  text-align: center;
+  min-height: 130px;
+  position: relative
+}
+
+.payment-completed .error_blckcheckout .grey_areascheckout p {
+  color: #8ac007;
+  font-size: 20px;
+  line-height: 38px;
+  font-family: "ubunturegular";
+  margin-top: 31px
+}
+
+.payment-completed .error_blckcheckout .grey_areascheckout p span.sicon {
+  background: url(../../assets/images/green-tick.png) no-repeat;
+  width: 28px;
+  height: 28px;
+  display: inline-block
+}
+
+.payment-completed .error_blckcheckout .grey_areascheckout .arrow_bg {
+  display: inline-block
+}
+
+.payment-completed .statustext {
+  color: #8ac007;
+  font-family: "ubunturegular";
+  font-size: 20px;
+  line-height: 38px;
+  margin-top: 31px
+}
+
+.payment-completed .paymentdetails {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px
+}
+
+.payment-completed .paymenttabletd {
+  border-bottom: 1px solid #666666;
+  height: 25px;
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 15px
+}
+
+.payment-completed .paymenttable {
+  border: 1px solid #666666;
+  font-family: ubunturegular;
+  font-size: 15px;
+  color: #666666;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-collapse: collapse
+}
+
+.payment-completed .PaymentText {
+  font-family: ubunturegular;
+  font-size: 16px;
+  color: #666666;
+  line-height: 26px
+}
+
+.payment-completed p.copyright {
+  float: right;
+  color: #727272;
+  font-size: 11px;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center
+}

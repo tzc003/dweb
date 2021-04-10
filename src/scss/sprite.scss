@@ -1,0 +1,24 @@
+$base: 40; @function rem( $px ){@return $px/60*1rem;}
+
+    %sprite {
+      background-image: url(~@/images/sprite.png?1617877618268);
+      background-repeat: no-repeat;
+      background-size: rem(1253) rem(7024);
+    }
+  
+@mixin arrow-select { width: rem(8); height: rem(5); background-position: 67.06827309236948% 0.9118107992591538%; }
+@mixin cardsIconSprite { width: rem(80); height: rem(480); background-position: 35.294117647058826% 0.9779951100244498%; }
+@mixin external130allet_1x_sprite { width: rem(W); height: rem(1028); background-position: 8.370436331255565% 68.91260840560373%; }
+@mixin external131allets_Sprite_payuV1 { width: rem(W); height: rem(956); background-position: 8.377896613190732% 85.13513513513513%; }
+@mixin external220allets_Sprite { width: rem(W); height: rem(1720); background-position: 9.09970958373669% 0; }
+@mixin footerCardsIcon { width: rem(933); height: rem(58); background-position: 100% 0; }
+@mixin green-tick { width: rem(20); height: rem(22); background-position: 51.41930251419302% 1.6852327906312483%; }
+@mixin icon-loading { width: rem(16); height: rem(16); background-position: 65.72352465642683% 0.91324200913242%; }
+@mixin NetBanking_Sprite { width: rem(88); height: rem(2400); background-position: 8.068669527896995% 37.32698961937716%; }
+@mixin paypalbtn { width: rem(73); height: rem(20); background-position: 62.20338983050847% 0.9137635636778983%; }
+@mixin paytm { width: rem(61); height: rem(29); background-position: 55.95637583892618% 0.9149392423159399%; }
+@mixin payu_cardScemeSprite { width: rem(88); height: rem(564); background-position: 27.467811158798284% 0.9907120743034057%; }
+@mixin PayULogo { width: rem(128); height: rem(58); background-position: 44.44444444444444% 1.6939420040195232%; }
+@mixin payumoney-logo { width: rem(161); height: rem(48); background-position: 45.78754578754579% 0.9174311926605505%; }
+@mixin SavedCards_NetBanking { width: rem(88); height: rem(7024); background-position: 0 0; }
+@mixin tabIcons { width: rem(51); height: rem(142); background-position: 41.597337770382694% 2.6445800639349026%; }

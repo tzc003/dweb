@@ -1,0 +1,8128 @@
+@charset "UTF-8";
+[class*=" icon-"]:before, [class^=icon-]:before, [data-icon]:before {
+  font-family: icpIcons !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+/*@font-face {*/
+/*  font-family: icpIcons;*/
+/*  src: url(fonts/icpIcons.eot);*/
+/*  src: url(fonts/icpIcons.eot?#iefix) format("embedded-opentype"), url(fonts/icpIcons.woff) format("woff"), url(fonts/icpIcons.ttf) format("truetype"), url(fonts/icpIcons.svg#icpIcons) format("svg");*/
+/*  font-weight: 400;*/
+/*  font-style: normal*/
+/*}*/
+
+[data-icon]:before {
+  content: attr(data-icon)
+}
+
+.icon-angle-down:before {
+  content: "\61"
+}
+
+.icon-caret-down:before {
+  content: "\63"
+}
+
+.icon-caret-up:before {
+  content: "\64"
+}
+
+.icon-calendar-o:before {
+  content: "\65"
+}
+
+.icon-check-circle:before {
+  content: "\66"
+}
+
+.icon-exclamation-circle:before {
+  content: "\67"
+}
+
+.icon-envelope:before {
+  content: "\68"
+}
+
+.icon-lock:before {
+  content: "\69"
+}
+
+.icon-question-circle:before {
+  content: "\6a"
+}
+
+.icon-times:before {
+  content: "\6b"
+}
+
+.icon-toggle-off:before {
+  content: "\6c"
+}
+
+.icon-toggle-on:before {
+  content: "\6d"
+}
+
+.icon-user:before {
+  content: "\62"
+}
+
+.icon-credit-card:before {
+  content: "\6e"
+}
+
+.icon-mobile:before {
+  content: "\70"
+}
+
+.icon-check:before {
+  content: "\6f"
+}
+
+.icon-exclamation:before {
+  content: "\71"
+}
+
+.icon-exclamation-triangle:before {
+  content: "\72"
+}
+
+.icon-circle-o:before {
+  content: "\73"
+}
+
+.icon-university:before {
+  content: "\75"
+}
+
+.icon-square:before {
+  content: "\74"
+}
+
+.icon-ellipsis-v:before {
+  content: "\76"
+}
+
+.icon-home:before {
+  content: "\77"
+}
+
+.icon-building:before {
+  content: "\78"
+}
+
+.icon-unlock-alt:before {
+  content: "\79"
+}
+
+.icon-commenting-o:before {
+  content: "\41"
+}
+
+.INR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20b9"
+}
+
+.USD::before {
+  font-family: Roboto, sans-serif;
+  content: "\0024"
+}
+
+.EUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20ac"
+}
+
+.JPY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a5"
+}
+
+.GBP::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a3"
+}
+
+.CHF::before {
+  font-family: Roboto, sans-serif;
+  content: "Fr"
+}
+
+.SEK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.DDK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.DKK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.NOK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.SGD::before {
+  font-family: Roboto, sans-serif;
+  content: "S\0024"
+}
+
+.AUD::before {
+  font-family: Roboto, sans-serif;
+  content: "A\0024"
+}
+
+.CAD::before {
+  font-family: Roboto, sans-serif;
+  content: "C\0024"
+}
+
+.AED::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0625"
+}
+
+.HKD::before {
+  font-family: Roboto, sans-serif;
+  content: "HK\0024"
+}
+
+.QAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0642"
+}
+
+.SAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0633"
+}
+
+.OMR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0639."
+}
+
+.ZAR::before {
+  font-family: Roboto, sans-serif;
+  content: "R"
+}
+
+.MYR::before {
+  font-family: Roboto, sans-serif;
+  content: "RM"
+}
+
+.KWD::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0643"
+}
+
+.MUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs"
+}
+
+.LKR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs"
+}
+
+.KES::before {
+  font-family: Roboto, sans-serif;
+  content: "KSh"
+}
+
+.PHP::before {
+  font-family: Roboto, sans-serif;
+  content: "\20B1"
+}
+
+.NZD::before {
+  font-family: Roboto, sans-serif;
+  content: "NZ\0024"
+}
+
+.THB::before {
+  font-family: Roboto, sans-serif;
+  content: "\0E3F"
+}
+
+.BDT::before {
+  font-family: Roboto, sans-serif;
+  content: "\09F3"
+}
+
+.CNY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00A5"
+}
+
+.NPR::before {
+  font-family: Roboto, sans-serif;
+  content: "N\024Cs"
+}
+
+.BHD::before {
+  font-family: Roboto, sans-serif;
+  content: "BHD"
+}
+
+.DESKTOP.shakeErr, .outer-container, .cancel-popup-box.shakeErr {
+  -webkit-animation-duration: .4s;
+  -moz-animation-duration: .4s
+}
+
+.brandlogo, .cancel-this {
+  text-align: center;
+  position: absolute
+}
+
+.activestate li, .dropdown dd ul {
+  list-style: none
+}
+
+.main-container {
+  background: 0;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 360px
+}
+
+.outer-container {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  padding-top: 40px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0)
+}
+
+body:not(.force-desktop) .scaleInTab {
+  -webkit-animation: scaleInTab;
+  -webkit-animation-duration: .6s;
+  -moz-animation: scaleInTab;
+  -moz-animation-duration: .6s;
+  -ms-animation: scaleInTab;
+  -ms-animation-duration: .6s;
+  -o-animation: scaleInTab;
+  -o-animation-duration: .6s;
+  animation: scaleInTab;
+  animation-duration: .6s;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  -ms-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+.normalScale {
+  transform: scale(1)
+}
+
+.scaleIn {
+  -webkit-animation: scaleIn;
+  -webkit-animation-duration: .4s;
+  -moz-animation: scaleIn;
+  -moz-animation-duration: .4s;
+  -ms-animation: scaleIn;
+  -ms-animation-duration: .4s;
+  -o-animation: scaleIn;
+  -o-animation-duration: .4s;
+  animation: scaleIn;
+  animation-duration: .4s;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  -ms-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+.scaleOut {
+  -webkit-animation: scaleOut;
+  -webkit-animation-duration: .4s;
+  -moz-animation: scaleOut;
+  -moz-animation-duration: .4s;
+  -ms-animation: scaleOut;
+  -ms-animation-duration: .4s;
+  -o-animation: scaleOut;
+  -o-animation-duration: .4s;
+  animation: scaleOut;
+  animation-duration: .4s;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+.amtAnimation {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: amtAnimation;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-name: amtAnimation;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out;
+  animation-name: amtAnimation
+}
+
+.brandlogo img, .brandlogo::before {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.navbar-brand, .navbar-default, .navbar-header {
+  position: relative
+}
+
+.navbar-default {
+  background-color: #a5c339;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  float: left;
+  height: 70px;
+  transition: height .5s ease 0s;
+  width: 100%
+}
+
+.user-info {
+  background: #f5f5f5;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 10px
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.navbar-brand {
+  background: #fff;
+  border-radius: 4px;
+  float: left;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  top: -30px;
+  width: 90px;
+  z-index: 60002;
+  left: 6px
+}
+
+.payment-info {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  left: 116px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 28px
+}
+
+.merNameDisWithAmt {
+  top: 14px !important
+}
+
+.mcpAlignmentChange.merNameDisWithAmt {
+  top: 5px !important;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.merchantDisaplayName {
+  font-size: 14px !important;
+  text-transform: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 185px !important;
+  overflow: hidden
+}
+
+.payment-info-box {
+  width: 110%;
+  position: relative
+}
+
+.payment-info .payment-info-box > label, .payment-info span {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500
+}
+
+.cancel-this, .cancel-this a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px
+}
+
+.payment-info .payment-info-box > label {
+  margin-right: 5px
+}
+
+.cancel-this {
+  right: 5px;
+  top: 5px;
+  padding: 5px;
+  cursor: pointer
+}
+
+.secure-payment i {
+  font-size: 14px;
+  margin-right: 7px
+}
+
+.cancel-this i {
+  font-size: 18px;
+  margin-right: 0
+}
+
+.cpmapanylogo {
+  background: #fafafa;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 1px solid #ddd;
+  padding: 6px 10px
+}
+
+.brandlogo {
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  right: 0;
+  top: 0
+}
+
+.nav > li, .row {
+  position: relative
+}
+
+.brandlogo::before {
+  content: " ";
+  height: 100%
+}
+
+.navbar-right {
+  float: right
+}
+
+.nav > li {
+  display: block
+}
+
+.navbar-default .navbar-nav > li a {
+  color: #007aff;
+  display: block;
+  font-size: 13px;
+  padding: 10px 15px;
+  position: relative;
+  text-decoration: none
+}
+
+.row {
+  clear: both
+}
+
+.container-payment-gateway {
+  background: 0;
+  margin: 0 auto
+}
+
+.panel.panel-default.panel-options {
+  background: #fff
+}
+
+.container-payment-gateway .user-info span {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.container-payment-gateway .user-info span.log-out, .container-payment-gateway .user-info span.not-you, .container-payment-gateway .user-info span.user-email, .container-payment-gateway .user-info span.user-mobile {
+  display: inline-block;
+  margin: 0 5px
+}
+
+.collapse, .inactive {
+  display: none
+}
+
+.container-payment-gateway .user-info span.show-details {
+  position: absolute;
+  right: 10px;
+  top: 18px
+}
+
+.container-payment-gateway .user-info span.user-email {
+  max-width: 165px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.container-payment-gateway .user-info span.user-slash {
+  margin-top: -1px !important
+}
+
+.param-1 .container-payment-gateway .user-info span.user-slash {
+  display: none !important
+}
+
+.panel-details .panel-body {
+  background: #fbfbfb
+}
+
+.col-sm-4.col-md-4 {
+  float: left;
+  width: 26%
+}
+
+.col-sm-5.col-md-5.email-container {
+  float: left;
+  width: 50%
+}
+
+#myTabContent {
+  clear: both;
+  margin: 0;
+  padding: 0 0 10px;
+  width: 100%
+}
+
+.tab-container {
+  margin: 0 auto;
+  min-height: 230px;
+  position: relative;
+  width: 100%
+}
+
+.MOBILE .tab-container {
+  height: auto !important
+}
+
+.col-md-6 {
+  float: left;
+  width: 50%
+}
+
+.col-md-8 {
+  margin: 0 auto;
+  width: 66.6667%
+}
+
+.footer {
+  background-color: #eaeaea;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin: 0 auto;
+  width: 100%
+}
+
+.footer .container-fluid {
+  margin: 0;
+  padding: 7px 10px
+}
+
+.mcpScaleInHeight .footer .container-fluid {
+  padding: 0 10px
+}
+
+.mcpScaleInHeight .Opened .footer .container-fluid {
+  padding: 7px 10px
+}
+
+.footer .cardss {
+  width: 76%
+}
+
+.no-responsive .secure-payment {
+  color: black
+}
+
+.secure-payment {
+  border: 0;
+  bottom: -30px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 300;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: auto;
+  top: auto;
+  z-index: 8;
+  vertical-align: middle
+}
+
+.secureIcon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 4px
+}
+
+.secureTxt {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.footer .container-fluid .navbar-nav li {
+  border-right: 1px solid #f9fafa;
+  display: inline-block;
+  height: 22px;
+  padding: 0 5px
+}
+
+.footer .container-fluid .navbar-nav li:last-child {
+  border-right: medium none
+}
+
+.footer .container-fluid .navbar-nav li span {
+  display: inline-block;
+  height: 25px;
+  width: 70px
+}
+
+/*span.icon-dss {*/
+/*  background: url(../../assets/images/footerIconSprite.png) center -89px/80px auto no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-mcsc {*/
+/*  background: url(../images/footerIconSprite.png) center -28px/80px auto no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-vv {*/
+/*  background: url(../images/footerIconSprite.png) center 1px/80px auto no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-gt {*/
+/*  background: url(../images/footerIconSprite.png) 1px -53px/75px auto no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+.two-tab-structure .payment-gateway-tabs .nav-tabs li {
+  width: 50%
+}
+
+.two-tab-structure .payment-gateway-tabs .nav-tabs li {
+  width: 50%
+}
+
+.single-tab-structure .payment-gateway-tabs .sidebar-menu {
+  display: none
+}
+
+.single-tab-structure #myTabContent {
+  margin-top: 35px
+}
+
+.order-summary {
+  margin: 0 auto;
+  padding-top: 0;
+  width: 980px
+}
+
+.order-summary .row {
+  float: left;
+  margin: 0 auto;
+  width: 650px
+}
+
+.order-summary-details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px #e2e2e2;
+  color: #808285;
+  float: right;
+  font-size: 12px;
+  padding: 20px;
+  position: relative;
+  width: 25%
+}
+
+.bordered, .wrapper {
+  left: 0;
+  position: absolute
+}
+
+.order-summary-details span {
+  display: inline-block;
+  text-align: right;
+  width: 50%
+}
+
+.order-summary-details span.label {
+  text-align: left
+}
+
+.order-summary-details p.title {
+  color: #6b6663;
+  font-size: 16px
+}
+
+.payment-details .title {
+  border-top: 1px solid #eee;
+  padding-top: 15px
+}
+
+.total-amount span {
+  font-weight: 700
+}
+
+*, body {
+  font-weight: 300
+}
+
+.total-amount {
+  border-top: 1px dashed #f3f3f3;
+  margin-left: -15px;
+  padding: 15px 20px;
+  width: 98%
+}
+
+.order-details, .payment-details {
+  padding-bottom: 5px
+}
+
+.footer-order-summary {
+  clear: both;
+  margin: 0 auto;
+  width: 980px
+}
+
+.order-summary .payment-gateway-options {
+  padding-bottom: 0;
+  padding-left: 0
+}
+
+.bordered {
+  /*background: url(../images/repeat-border.png) repeat-x #fff;*/
+  bottom: -20px;
+  height: 24px;
+  width: 100%;
+  z-index: 21
+}
+
+.wrapper {
+  bottom: 0;
+  height: 490px;
+  margin: auto;
+  right: 0;
+  top: 0;
+  vertical-align: middle;
+  width: 360px
+}
+
+.wrapper.MOBILE {
+  overflow-y: scroll;
+  height: 100vh;
+  background: #fff
+}
+
+.Opened .payment-gateway-options, .rightOverlay, .user-icon-box {
+  overflow: hidden
+}
+
+.Opened .down {
+  display: none
+}
+
+.Opened .up {
+  display: block
+}
+
+.user-details-show {
+  cursor: pointer
+}
+
+.textSecurity {
+  text-security: disc !important;
+  -webkit-text-security: disc !important;
+  -moz-text-security: disc !important
+}
+
+.white-bg {
+  background: #fff !important
+}
+
+.remove-a-color {
+  color: #333 !important
+}
+
+.amtAnimation {
+  opacity: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-animation: scaleInFade;
+  -webkit-animation-duration: .3s;
+  -moz-animation: scaleInFade;
+  -moz-animation-duration: .3s;
+  -ms-animation: scaleInFade;
+  -ms-animation-duration: .3s;
+  -o-animation: scaleInFade;
+  -o-animation-duration: .3s;
+  animation: scaleInFade;
+  animation-duration: .3s;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  -ms-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+
+@keyframes scaleInFade {
+
+0%
+{
+  opacity: 0
+;
+  transform: scale(0)
+}
+40%
+{
+  opacity: .1
+;
+  transform: scale(.4)
+}
+80%
+{
+  opacity: .2
+;
+  transform: scale(.8)
+}
+100%
+{
+  opacity: 1
+;
+  transform: scale(1)
+}
+}
+@-webkit-keyframes scaleInFade {
+
+0%
+{
+  opacity: 0
+;
+  -webkit-transform: scale(0)
+;
+  transform: scale(0)
+}
+40%
+{
+  opacity: .1
+;
+  -webkit-transform: scale(.4)
+;
+  transform: scale(.4)
+}
+80%
+{
+  opacity: .2
+;
+  -webkit-transform: scale(.8)
+;
+  transform: scale(.8)
+}
+100%
+{
+  opacity: 1
+;
+  -webkit-transform: scale(1)
+;
+  transform: scale(1)
+}
+}
+@-moz-keyframes scaleInFade {
+
+0%
+{
+  opacity: 0
+;
+  -moz-transform: scale(0)
+;
+  transform: scale(0)
+}
+40%
+{
+  opacity: .1
+;
+  -moz-transform: scale(.4)
+;
+  transform: scale(.4)
+}
+80%
+{
+  opacity: .2
+;
+  -moz-transform: scale(.8)
+;
+  transform: scale(.8)
+}
+100%
+{
+  opacity: 1
+;
+  -moz-transform: scale(1)
+;
+  transform: scale(1)
+}
+}
+@-ms-keyframes scaleInFade {
+
+0%
+{
+  opacity: 0
+;
+  -ms-transform: scale(0)
+;
+  transform: scale(0)
+}
+40%
+{
+  opacity: .1
+;
+  -ms-transform: scale(.4)
+;
+  transform: scale(.4)
+}
+80%
+{
+  opacity: .2
+;
+  -ms-transform: scale(.8)
+;
+  transform: scale(.8)
+}
+100%
+{
+  opacity: 1
+;
+  -ms-transform: scale(1)
+;
+  transform: scale(1)
+}
+}
+@-o-keyframes scaleInFade {
+
+0%
+{
+  opacity: 0
+;
+  -o-transform: scale(0)
+;
+  transform: scale(0)
+}
+40%
+{
+  opacity: .1
+;
+  -o-transform: scale(.4)
+;
+  transform: scale(.4)
+}
+80%
+{
+  opacity: .2
+;
+  -o-transform: scale(.8)
+;
+  transform: scale(.8)
+}
+100%
+{
+  opacity: 1
+;
+  -o-transform: scale(1)
+;
+  transform: scale(1)
+}
+}
+.DESKTOP.shakeErr, .cancel-popup-box.shakeErr {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: shakeAnimation;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-name: shakeAnimation;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  animation-name: shakeAnimation
+}
+
+@-moz-keyframes shakeAnimation {
+
+0%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+12.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-5deg)
+;
+  -moz-transform: perspective(300px) rotateY(-5deg)
+;
+  -ms-transform: perspective(300px) rotateY(-5deg)
+;
+  -o-transform: perspective(300px) rotateY(-5deg)
+;
+  transform: perspective(300px) rotateY(-5deg)
+}
+37.5%
+{
+  -webkit-transform: perspective(300px) rotateY(4deg)
+;
+  -moz-transform: perspective(300px) rotateY(4deg)
+;
+  -ms-transform: perspective(300px) rotateY(4deg)
+;
+  -o-transform: perspective(300px) rotateY(4deg)
+;
+  transform: perspective(300px) rotateY(4deg)
+}
+62.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-2deg)
+;
+  -moz-transform: perspective(300px) rotateY(-2deg)
+;
+  -ms-transform: perspective(300px) rotateY(-2deg)
+;
+  -o-transform: perspective(300px) rotateY(-2deg)
+;
+  transform: perspective(300px) rotateY(-2deg)
+}
+87.5%
+{
+  -webkit-transform: perspective(300px) rotateY(1deg)
+;
+  -moz-transform: perspective(300px) rotateY(1deg)
+;
+  -ms-transform: perspective(300px) rotateY(1deg)
+;
+  -o-transform: perspective(300px) rotateY(1deg)
+;
+  transform: perspective(300px) rotateY(1deg)
+}
+100%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+}
+@-webkit-keyframes shakeAnimation {
+
+0%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+12.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-5deg)
+;
+  -moz-transform: perspective(300px) rotateY(-5deg)
+;
+  -ms-transform: perspective(300px) rotateY(-5deg)
+;
+  -o-transform: perspective(300px) rotateY(-5deg)
+;
+  transform: perspective(300px) rotateY(-5deg)
+}
+37.5%
+{
+  -webkit-transform: perspective(300px) rotateY(4deg)
+;
+  -moz-transform: perspective(300px) rotateY(4deg)
+;
+  -ms-transform: perspective(300px) rotateY(4deg)
+;
+  -o-transform: perspective(300px) rotateY(4deg)
+;
+  transform: perspective(300px) rotateY(4deg)
+}
+62.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-2deg)
+;
+  -moz-transform: perspective(300px) rotateY(-2deg)
+;
+  -ms-transform: perspective(300px) rotateY(-2deg)
+;
+  -o-transform: perspective(300px) rotateY(-2deg)
+;
+  transform: perspective(300px) rotateY(-2deg)
+}
+87.5%
+{
+  -webkit-transform: perspective(300px) rotateY(1deg)
+;
+  -moz-transform: perspective(300px) rotateY(1deg)
+;
+  -ms-transform: perspective(300px) rotateY(1deg)
+;
+  -o-transform: perspective(300px) rotateY(1deg)
+;
+  transform: perspective(300px) rotateY(1deg)
+}
+100%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+}
+@-o-keyframes shakeAnimation {
+
+0%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+12.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-5deg)
+;
+  -moz-transform: perspective(300px) rotateY(-5deg)
+;
+  -ms-transform: perspective(300px) rotateY(-5deg)
+;
+  -o-transform: perspective(300px) rotateY(-5deg)
+;
+  transform: perspective(300px) rotateY(-5deg)
+}
+37.5%
+{
+  -webkit-transform: perspective(300px) rotateY(4deg)
+;
+  -moz-transform: perspective(300px) rotateY(4deg)
+;
+  -ms-transform: perspective(300px) rotateY(4deg)
+;
+  -o-transform: perspective(300px) rotateY(4deg)
+;
+  transform: perspective(300px) rotateY(4deg)
+}
+62.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-2deg)
+;
+  -moz-transform: perspective(300px) rotateY(-2deg)
+;
+  -ms-transform: perspective(300px) rotateY(-2deg)
+;
+  -o-transform: perspective(300px) rotateY(-2deg)
+;
+  transform: perspective(300px) rotateY(-2deg)
+}
+87.5%
+{
+  -webkit-transform: perspective(300px) rotateY(1deg)
+;
+  -moz-transform: perspective(300px) rotateY(1deg)
+;
+  -ms-transform: perspective(300px) rotateY(1deg)
+;
+  -o-transform: perspective(300px) rotateY(1deg)
+;
+  transform: perspective(300px) rotateY(1deg)
+}
+100%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+}
+@-ms-keyframes shakeAnimation {
+
+0%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+12.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-5deg)
+;
+  -moz-transform: perspective(300px) rotateY(-5deg)
+;
+  -ms-transform: perspective(300px) rotateY(-5deg)
+;
+  -o-transform: perspective(300px) rotateY(-5deg)
+;
+  transform: perspective(300px) rotateY(-5deg)
+}
+37.5%
+{
+  -webkit-transform: perspective(300px) rotateY(4deg)
+;
+  -moz-transform: perspective(300px) rotateY(4deg)
+;
+  -ms-transform: perspective(300px) rotateY(4deg)
+;
+  -o-transform: perspective(300px) rotateY(4deg)
+;
+  transform: perspective(300px) rotateY(4deg)
+}
+62.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-2deg)
+;
+  -moz-transform: perspective(300px) rotateY(-2deg)
+;
+  -ms-transform: perspective(300px) rotateY(-2deg)
+;
+  -o-transform: perspective(300px) rotateY(-2deg)
+;
+  transform: perspective(300px) rotateY(-2deg)
+}
+87.5%
+{
+  -webkit-transform: perspective(300px) rotateY(1deg)
+;
+  -moz-transform: perspective(300px) rotateY(1deg)
+;
+  -ms-transform: perspective(300px) rotateY(1deg)
+;
+  -o-transform: perspective(300px) rotateY(1deg)
+;
+  transform: perspective(300px) rotateY(1deg)
+}
+100%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+}
+@keyframes shakeAnimation {
+
+0%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+12.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-5deg)
+;
+  -moz-transform: perspective(300px) rotateY(-5deg)
+;
+  -ms-transform: perspective(300px) rotateY(-5deg)
+;
+  -o-transform: perspective(300px) rotateY(-5deg)
+;
+  transform: perspective(300px) rotateY(-5deg)
+}
+37.5%
+{
+  -webkit-transform: perspective(300px) rotateY(4deg)
+;
+  -moz-transform: perspective(300px) rotateY(4deg)
+;
+  -ms-transform: perspective(300px) rotateY(4deg)
+;
+  -o-transform: perspective(300px) rotateY(4deg)
+;
+  transform: perspective(300px) rotateY(4deg)
+}
+62.5%
+{
+  -webkit-transform: perspective(300px) rotateY(-2deg)
+;
+  -moz-transform: perspective(300px) rotateY(-2deg)
+;
+  -ms-transform: perspective(300px) rotateY(-2deg)
+;
+  -o-transform: perspective(300px) rotateY(-2deg)
+;
+  transform: perspective(300px) rotateY(-2deg)
+}
+87.5%
+{
+  -webkit-transform: perspective(300px) rotateY(1deg)
+;
+  -moz-transform: perspective(300px) rotateY(1deg)
+;
+  -ms-transform: perspective(300px) rotateY(1deg)
+;
+  -o-transform: perspective(300px) rotateY(1deg)
+;
+  transform: perspective(300px) rotateY(1deg)
+}
+100%
+{
+  -webkit-transform: perspective(300px)
+;
+  -moz-transform: perspective(300px)
+;
+  -ms-transform: perspective(300px)
+;
+  -o-transform: perspective(300px)
+;
+  transform: perspective(300px)
+}
+}
+.user-icon-box {
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+@-webkit-keyframes scaleIn {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@-moz-keyframes scaleIn {
+  from {
+    -moz-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -moz-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@-ms-keyframes scaleIn {
+  from {
+    -ms-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -ms-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@-o-keyframes scaleIn {
+  from {
+    -o-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -o-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1);
+    opacity: 1
+  }
+  to {
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes scaleOut {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+  to {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@-moz-keyframes scaleOut {
+  from {
+    -moz-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+  to {
+    -moz-transform: scale(0);
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@-ms-keyframes scaleOut {
+  from {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+  to {
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@-o-keyframes scaleOut {
+  from {
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+  to {
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@keyframes scaleInTab {
+  from {
+    transform: scale(0.939);
+    opacity: 0
+  }
+  to {
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes scaleInTab {
+  from {
+    -webkit-transform: scale(0.939);
+    transform: scale(0.939);
+    opacity: 0
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+@-moz-keyframes scaleInTab {
+  from {
+    -moz-transform: scale(0.939);
+    transform: scale(0.939);
+    opacity: 0
+  }
+  to {
+    -moz-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+@-ms-keyframes scaleInTab {
+  from {
+    -ms-transform: scale(0.939);
+    transform: scale(0.939);
+    opacity: 0
+  }
+  to {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+@-o-keyframes scaleInTab {
+  from {
+    -o-transform: scale(0.939);
+    transform: scale(0.939);
+    opacity: 0
+  }
+  to {
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+::after, ::before {
+  box-sizing: border-box;
+  clear: both
+}
+
+body {
+  color: #414042;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 84px;
+  text-rendering: optimizelegibility !important;
+  -webkit-tap-highlight-color: transparent
+}
+
+select::-ms-expand {
+  display: none
+}
+
+.retry {
+  background: rgba(0, 0, 0, .1)
+}
+
+.row::after {
+  clear: both
+}
+
+.clearfix::after, .clearfix::before {
+  content: " ";
+  display: table
+}
+
+p {
+  margin: 0 0 10px
+}
+
+button, select, textarea {
+  font-family: Roboto, sans-serif
+}
+
+button {
+  cursor: pointer
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle
+}
+
+.btn[disabled], .disabled, fieldset[disabled] .btn {
+  background: #a5c339;
+  color: rgba(255, 255, 255, .4);
+  cursor: not-allowed
+}
+
+.EmiSection .emi-period-details #tenure, .btn, .dropdown dt a span, [data-tooltip] {
+  cursor: pointer
+}
+
+.btn-green {
+  background: #a5c339;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px
+}
+
+.btn-block {
+  display: block;
+  width: 100%
+}
+
+.btn {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap
+}
+
+.panel-default > .panel-heading {
+  border-color: rgba(209, 211, 212, .3);
+  color: #333
+}
+
+.panel-details .panel-heading, .panel-options .panel-heading {
+  background: #f7f7f7;
+  padding: 15px
+}
+
+.container-payment-gateway .user-info span.seperator {
+  color: #007aff
+}
+
+.input-group {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-collapse: separate;
+  display: block;
+  position: relative;
+  width: 100%
+}
+
+.input-group.error {
+  border: 1px solid #f37d76;
+  border-radius: 4px
+}
+
+.input-group.read-only {
+  background: #fafafa
+}
+
+#cardTransaction .filled .input-group-addon:first-child i, #cardTransaction .focuson .input-group-addon:first-child i, .container-payment-gateway #form-details .input-group.read-only .input-group-addon:first-child i, .input-group.filled i, .input-group.filled input, .input-group.focuson i, .input-group.focuson input, #emiCardTransaction .filled .input-group-addon:first-child i, #emiCardTransaction .focuson .input-group-addon:first-child i {
+  color: #414042 !important
+}
+
+.container-payment-gateway #form-details .input-group-addon:first-child i {
+  color: #939598;
+  display: block;
+  font-size: 16px;
+  margin: 0;
+  max-width: 25px;
+  width: 16px
+}
+
+.fa {
+  display: inline-block;
+  font-family: icpIcons;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: inherit;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 1;
+  text-rendering: auto
+}
+
+.input-group-addon {
+  clear: both;
+  display: block;
+  float: left;
+  padding: 10px;
+  text-align: center
+}
+
+.input-group-addon-mob {
+  margin-top: -1px
+}
+
+.input-group-addon-email1 {
+  margin-top: -3px;
+  font-size: 15px
+}
+
+.form-control {
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px 0;
+  width: 78%
+}
+
+.blocked .form-control {
+  cursor: not-allowed !important
+}
+
+.panel-body::after, .panel-body::before {
+  clear: both;
+  content: " ";
+  display: table
+}
+
+.col-sm-3.col-md-3 {
+  float: right;
+  width: 20%
+}
+
+.form-control:focus {
+  outline: 0
+}
+
+.border-left-radius {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px
+}
+
+.border-right-radius {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px
+}
+
+.border-top-radius {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px
+}
+
+.border-bottom-radius {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top: 0 none
+}
+
+.focuson {
+  border: 1px solid #48b6f9;
+  border-radius: 4px
+}
+
+.card-validate-month input {
+  width: 70%
+}
+
+.panel-details .panel-heading h3, .panel-options .panel-heading h3 {
+  color: #6b6663;
+  font-size: 16px;
+  font-weight: 400
+}
+
+.payment-gateway-tabs {
+  float: left;
+  position: relative;
+  width: 100%
+}
+
+.payment-gateway-tabs .nav-tabs li a {
+  color: #808285;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 0;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.payment-gateway-tabs .sidebar-menu li.active {
+  border-bottom: 2px solid #a5c339
+}
+
+.payment-gateway-tabs .nav-tabs li {
+  border-bottom: 1px solid #e6e7e8;
+  float: left;
+  margin: 0;
+  width: 33%
+}
+
+.payment-gateway-tabs .sidebar-menu {
+  display: block;
+  float: left;
+  width: 100%
+}
+
+span.icon-axis, span.icon-hdfc, span.icon-hsbc, span.icon-sbi {
+  display: inline-block
+}
+
+.payment-gateway-options {
+  padding-bottom: 0
+}
+
+.bank-logo-cont span, .bank-logo-cont-payu span {
+  height: 28px;
+  width: 32px
+}
+
+/*span.icon-axis {*/
+/*  background: url(../images/bankiconSprite.png) left 0 no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-hdfc {*/
+/*  background: url(../images/bankiconSprite.png) left -118px no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-sbi {*/
+/*  background: url(../images/bankiconSprite.png) left -40px no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+/*span.icon-hsbc {*/
+/*  background: url(../images/bankiconSprite.png) left 0 no-repeat rgba(0, 0, 0, 0)*/
+/*}*/
+
+.note-yellow {
+  background: #fbe338;
+  color: #222;
+  margin: -15px auto 30px;
+  padding: 7px 30px;
+  text-align: center;
+  width: 80%
+}
+
+div.active {
+  height: 280px
+}
+
+.mcpScaleInHeight #cards.active {
+  height: 325px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.noUserDetails div.active {
+  height: 331px
+}
+
+.active {
+  display: block
+}
+
+.radio .custom-radio {
+  background-clip: padding-box;
+  background-color: #fbfbfb;
+  border: 1px solid #f1f2f2;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  left: -20px;
+  padding: 1px;
+  position: absolute;
+  top: 0;
+  width: 15px
+}
+
+.radio input[type=checkbox], .radio input[type=radio] {
+  height: 30px;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 94%
+}
+
+.saved-card .radio, .saved-nb .radio, .wallet-saved-card .radio {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-top: 0;
+  cursor: pointer
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  opacity: 0;
+  padding: 0
+}
+
+.radio .custom-radio::after {
+  border: 2px solid #fbfbfb;
+  border-radius: 50%;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.radio {
+  display: inline-block;
+  position: relative;
+  width: 100%
+}
+
+.views {
+  margin: 0 auto;
+  width: 680px
+}
+
+.note-error {
+  margin: -15px auto 30px;
+  padding: 7px 30px
+}
+
+.currencyChange {
+  border-radius: 4px
+}
+
+#netbankingBanks, #eWalletBanks, #tezDropDown, #emiBanks {
+  cursor: pointer;
+  -moz-appearance: none;
+  background: url(../../assets/images/arrow-select.png) 97% 12px no-repeat #fff;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #555;
+  display: block;
+  font-size: 12px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #d8d8d8
+}
+
+#tezDropDown {
+  background: url(../../assets/images/arrow-select.png) 91% 15px no-repeat #fff
+}
+
+.selectedColor {
+  background-color: #f7f7f7 !important
+}
+
+.saveToggle {
+  cursor: pointer
+}
+
+.currencyChange .form-control {
+  color: #414042;
+  font-size: 12px;
+  padding: 0 10px;
+  width: 100%
+}
+
+.trans-error {
+  clear: both;
+  color: #f16158;
+  font-size: 12px;
+  padding: 10px 15px 0 0
+}
+
+.trans-error i {
+  margin-right: 5px
+}
+
+.trans-error span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px
+}
+
+.icp-error-tooltip {
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, .7);
+  font-size: 12px;
+  padding: 3px 7px;
+  z-index: 1
+}
+
+.wallet-body .icp-error-tooltip {
+  top: -23px;
+  left: 0;
+  display: none
+}
+
+.icp-saved-error-tooltip {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, .7);
+  font-size: 12px;
+  padding: 3px 7px;
+  z-index: 1
+}
+
+.icp-saved-error-tooltip.walletEr {
+  top: -19px
+}
+
+.icp-error-tooltip-selBank, .icp-error-tooltip-selTez {
+  position: absolute;
+  top: -20px;
+  right: -5px;
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, .7);
+  font-size: 12px;
+  padding: 3px 7px;
+  z-index: 1
+}
+
+.icp-error-tooltip-selTez {
+  min-width: 125px !important;
+  text-align: center !important
+}
+
+.icp-error-tooltip-i {
+  position: absolute;
+  bottom: 6px;
+  left: 4px;
+  height: 0;
+  width: 0;
+  font-size: 15px;
+  color: hsla(0, 0%, 20%, .9) !important
+}
+
+.icp-saved-error-tooltip-i {
+  position: absolute;
+  bottom: 6px;
+  right: 43px;
+  height: 0;
+  width: 0;
+  font-size: 15px;
+  color: hsla(0, 0%, 20%, .9) !important
+}
+
+.icp-error-tooltip-right {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, .7);
+  font-size: 12px;
+  padding: 3px 7px;
+  z-index: 1
+}
+
+.icp-error-tooltip-i-selBank, .icp-error-tooltip-i-selTez {
+  position: absolute;
+  bottom: 6px;
+  right: 26px;
+  height: 0;
+  width: 0;
+  font-size: 15px;
+  color: hsla(0, 0%, 20%, .9) !important
+}
+
+.icp-error-tooltip-i-right {
+  position: absolute;
+  bottom: 5px;
+  right: 102px;
+  height: 0;
+  width: 0;
+  font-size: 15px;
+  color: hsla(0, 0%, 20%, .9) !important
+}
+
+.tipBox-2 .icp-error-tooltip-i-right {
+  right: 87px
+}
+
+.icp-error-tooltip-i-right-drop {
+  right: 87px
+}
+
+.tipBox-0 .icp-error-tooltip-i-t {
+  left: 23px
+}
+
+.iPhone .tipBox-0 .icp-error-tooltip-i-t {
+  left: 63px
+}
+
+.tipBox-1 .icp-error-tooltip-i-t {
+  left: 53px
+}
+
+.iPhone .tipBox-1 .icp-error-tooltip-i-t {
+  left: 124px
+}
+
+.tipBox-4 .icp-error-tooltip-i-t {
+  left: 113px
+}
+
+.iPhone .tipBox-4 .icp-error-tooltip-i-t {
+  left: 128px
+}
+
+.icp-error-tooltip-right label {
+  font-weight: 300;
+  margin-bottom: 0;
+  max-width: auto;
+  text-align: left
+}
+
+#maestroMsg, #maestroMsgEmi {
+  display: none
+}
+
+.error-hide {
+  display: none
+}
+
+#card-icon, #card-icon-lp, #card-icon-emi {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  top: 3px;
+  right: 5px;
+  background: url(../../assets/images/cardsIconSprite.png) no-repeat rgba(0, 0, 0, 0);
+  background-size: 40px auto;
+  background-position: 0 0;
+  -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  transition: all .8s ease
+}
+
+.card-icon-img .noCardScheams {
+  background-position: 0 -240px !important
+}
+
+.card-icon-img .maestro {
+  background-position: 0 -90px !important
+}
+
+.card-icon-img .mastercard {
+  background-position: 0 -30px !important
+}
+
+.card-icon-img .jcb {
+  background-position: 0 -120px !important
+}
+
+.card-icon-img .rupay {
+  background-position: 0 -180px !important
+}
+
+.card-icon-img .visa {
+  background-position: 0 -60px !important
+}
+
+.card-icon-img .amex {
+  background-position: 0 -210px !important
+}
+
+.card-icon-img .dinersclub, .card-icon-img .discover {
+  background-position: 0 -150px !important
+}
+
+#cardTransaction {
+  padding: 20px 20px 0
+}
+
+#emiCardTransaction {
+  padding: 0 20px 0
+}
+
+.card-validate input[type=password] {
+  width: 67%
+}
+
+.wrap {
+  padding: 10px 0
+}
+
+.mcpScaleInHeight #cards .saveCardT .wrap {
+  padding: 10px 0 0
+}
+
+.upiT .wrap {
+  padding: 0 0 10px
+}
+
+.tezT .wrap {
+  padding: 10px 1px 0 0;
+  margin-bottom: -5px
+}
+
+.wrap input[type=checkbox] {
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0
+}
+
+.wrap input.ios-switch[type=checkbox] + div .fa-toggle-on, .wrap input.ios-switch[type=checkbox]:checked + div .fa-toggle-off {
+  display: none;
+  font-size: 17px
+}
+
+.wrap input.ios-switch[type=checkbox]:checked + div .fa-toggle-on {
+  color: #42a5f5;
+  display: inline
+}
+
+.wrap input.ios-switch[type=checkbox] + div {
+  bottom: 0;
+  font-size: 16px;
+  position: absolute;
+  right: 1px;
+  top: 1px
+}
+
+.wrap body {
+  background: linear-gradient(to bottom, #f2fbff 0, #fff 64%) no-repeat rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, .77);
+  cursor: default;
+  font: 200 18px "Helvetica Neue";
+  padding-left: 30px;
+  padding-top: 0
+}
+
+.wrap h1 {
+  color: #135ae4;
+  font-size: 40px;
+  font-weight: 100
+}
+
+.wrap h2 {
+  color: #03b000;
+  font-size: 22px;
+  font-weight: 200
+}
+
+.wrap h3 {
+  color: rgba(0, 0, 0, .77);
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 50px
+}
+
+.wrap a:active, .wrap a:hover {
+  text-decoration: underline
+}
+
+label {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 5px;
+  max-width: 100%;
+  text-align: left
+}
+
+.text-right, .wrap label {
+  text-align: right
+}
+
+.wrap label {
+  color: #ababad;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  padding-right: 25px;
+  position: relative;
+  vertical-align: middle
+}
+
+#cardTransaction .input-group-addon:first-child i, .icon i, #emiCardTransaction .input-group-addon:first-child i {
+  color: #bcbec0
+}
+
+.card-details {
+  float: left;
+  width: 100%
+}
+
+#cardTransaction .input-group-addon, #emiCardTransaction .input-group-addon {
+  margin-right: 3px;
+  padding: 8px 10px 0
+}
+
+.input-group-addon-card {
+  margin-top: 2px
+}
+
+#lpCardTransaction .input-group-addon-card {
+  margin-top: 0;
+  padding-bottom: 0
+}
+
+.input-group-addon-exp {
+  margin-top: 1px
+}
+
+#lpCardTransaction .input-group-addon-exp {
+  margin-top: 0
+}
+
+.input-group-addon-cvv {
+  font-size: 16px;
+  margin-top: 1px
+}
+
+#lpCardTransaction .input-group-addon-cvv {
+  font-size: 16px;
+  margin-top: 0
+}
+
+.input-group-addon-name {
+  font-size: 15px;
+  margin-top: 2px;
+  margin-right: 0 !important
+}
+
+.card-name {
+  clear: both;
+  padding: 10px 0 0
+}
+
+.card-name .input-group {
+  border-radius: 4px
+}
+
+.card-validate-month {
+  border-bottom-left-radius: 4px;
+  border-top: 1px solid transparent
+}
+
+.card-validate {
+  border-bottom-right-radius: 4px;
+  border-top: 1px solid transparent
+}
+
+.card-validate-month.focuson, .card-validate.focuson {
+  border-top: 1px solid #48b6f9
+}
+
+.que-icon {
+  position: absolute;
+  right: 6px;
+  top: 8px
+}
+
+p.btn-pay {
+  text-align: center
+}
+
+p.btn-pay .btn {
+  padding: 10px 50px;
+  width: 100%
+}
+
+.EmiSection select, .netbanking-body .form-control {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  transition: border-color .15s ease-in-out 0s, box-shadow .15s ease-in-out 0s;
+  width: 100%
+}
+
+.netbanking-body .form-netbanking, .upi-body .form-upi, .tez-body .form-tez {
+  padding: 20px 20px 0
+}
+
+.netbanking-body .onlyNb {
+  padding-top: 1px
+}
+
+.radio-inline {
+  margin: 0;
+  padding: 0;
+  position: relative
+}
+
+.form-netbanking input[type=checkbox], .form-netbanking input[type=radio] {
+  display: none
+}
+
+.netbanking-body .form-netbanking input[type=checkbox] ~ span img, .netbanking-body .form-netbanking input[type=radio] ~ span img {
+  border: 1px solid #e6e7e8;
+  border-radius: 3px
+}
+
+input[type=checkbox] + span::before, input[type=radio] + span::before {
+  background: #fff;
+  border-radius: 50%;
+  color: #929497;
+  content: "\73";
+  font-family: icpIcons;
+  font-size: 16px;
+  font-weight: 400;
+  height: 17px;
+  left: -6px;
+  position: absolute;
+  top: 10px;
+  width: 10px
+}
+
+input[type=checkbox]:checked + span::before, .saved-card input[type=radio]:checked + span::before, .saved-nb input[type=radio]:checked + span::before, .wallet-saved-card input[type=radio]:checked + span::before {
+  color: #42a5f5 !important;
+  content: "\66" !important
+}
+
+#more_accounts {
+  display: block;
+  margin: 0 auto;
+  width: 90%
+}
+
+.bankName, .nbIcons {
+  display: inline-block
+}
+
+.netbanking-body .form-netbanking input[type=checkbox] + span::before, .netbanking-body .form-netbanking input[type=radio] + span::before {
+  top: 11px
+}
+
+.netbanking-body .form-netbanking input[type=checkbox] + span span, .netbanking-body .form-netbanking input[type=radio] + span span {
+  background: url(../../assets/images/NetBanking_Sprite.png) no-repeat rgba(0, 0, 0, 0);
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 400;
+  padding: 10px;
+  text-indent: 32%;
+  width: 100%;
+  background-position: -7px -12px;
+  background-size: 60px
+}
+
+.walletBx {
+  text-indent: -200% !important;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url(../../assets/images/externalWallets_Sprite.png) no-repeat rgba(0, 0, 0, 0) !important
+}
+
+.walletBx.airtelmoneywallet {
+  background-position: center -55px !important;
+  background-size: 110px !important
+}
+
+.walletBx.airtelmoney {
+  background-position: center -55px !important;
+  background-size: 110px !important
+}
+
+.walletBx.masterpasswallet {
+  background-position: center -562px !important;
+  background-size: 95px !important
+}
+
+.walletBx.masterpass {
+  background-position: center -562px !important;
+  background-size: 95px !important
+}
+
+.walletBx.mobikwikwallet {
+  background-position: center -107px !important;
+  background-size: 115px !important
+}
+
+.walletBx.mobikwik {
+  background-position: center -107px !important;
+  background-size: 115px !important
+}
+
+.walletBx.oxigenwallet {
+  background-position: center -475px !important;
+  background-size: 94px !important
+}
+
+.walletBx.oxigen, .walletBx.oxicashcard {
+  background-position: center -475px !important;
+  background-size: 94px !important
+}
+
+.walletBx.paytmwallet {
+  background-position: center -287px !important;
+  background-size: 130px !important
+}
+
+.walletBx.paytm {
+  background-position: center -287px !important;
+  background-size: 130px !important
+}
+
+.walletBx.amazonpaywallet {
+  background-position: center -791px !important;
+  background-size: 110px !important
+}
+
+.walletBx.amazonpay {
+  background-position: center -791px !important;
+  background-size: 110px !important
+}
+
+.walletBx.zipcashwallet {
+  background-position: center -510px !important;
+  background-size: 93px !important
+}
+
+.walletBx.zipcash, .walletBx.zipcashcard {
+  background-position: center -510px !important;
+  background-size: 93px !important
+}
+
+.walletBx.icashcashcard, .walletBx.icashcard {
+  background-position: center -202px !important;
+  background-size: 115px !important
+}
+
+.walletBx.paycashcard {
+  background-position: center -649px !important;
+  background-size: 102px !important
+}
+
+.walletBx.ideamoney {
+  background-position: center -244px !important;
+  background-size: 95px !important
+}
+
+.walletBx.payzapp, .walletBx.hdfcbank-payzapp {
+  background-position: center -283px !important;
+  background-size: 95px !important
+}
+
+.walletBx.mpesa {
+  background-position: center -389px !important;
+  background-size: 92px !important
+}
+
+.walletBx.freecharge {
+  background-position: center -442px !important;
+  background-size: 95px !important
+}
+
+.walletBx.sbibuddy {
+  background-position: center -363px !important;
+  background-size: 95px !important
+}
+
+.walletBx.citruswallet {
+  background-position: center -8px !important;
+  background-size: 110px !important
+}
+
+.walletBx.citrus {
+  background-position: center -8px !important;
+  background-size: 110px !important
+}
+
+.walletBx.PHONEPE {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -574px !important;
+  background-size: 100px !important
+}
+
+.walletBx.citibankrewardpoints {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -418px !important;
+  background-size: 100px !important
+}
+
+.walletBx.donecashcard {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -144px !important;
+  background-size: 80px !important
+}
+
+.walletBx.itzcash {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -395px !important;
+  background-size: 115px !important
+}
+
+.walletBx.yespaywallet {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -123px !important;
+  background-size: 110px !important
+}
+
+.walletBx.ypaycash {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -293px !important;
+  background-size: 110px !important
+}
+
+.walletBx.olamoney {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -47px !important;
+  background-size: 130px !important
+}
+
+.walletBx.olamoneypostpaidwallet {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat !important;
+  background-position: center -702px !important;
+  background-size: 108px !important
+}
+
+.walletBx.momwallet {
+  background: url(../../assets/images/externalWallet_1x_sprite.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -854px !important;
+  background-size: 114px !important
+}
+
+.walletBx.jiomoney {
+  background: url(../../assets/images/externalWallets_Sprite_payuV1.png) no-repeat rgba(0, 0, 0, 0) !important;
+  background-position: center -551px !important;
+  background-size: 110px !important
+}
+
+.netbanking-body .form-netbanking input[type=radio]:checked + span span, input[type=checkbox]:checked ~ span img, input[type=radio]:checked ~ span img {
+  border: 1px solid #48b6f9
+}
+
+.nbIcons {
+  width: 19px;
+  height: 19px;
+  vertical-align: middle
+}
+
+.bankName {
+  vertical-align: middle
+}
+
+.netbanking-body .form-netbanking .sbibank {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -4px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .hdfc {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -39px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .icici {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -74px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .kotak {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -145px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .axis {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -111px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .idbi {
+  background: url(../../assets/images/NetBanking_Sprite.png) -3px -181px no-repeat rgba(0, 0, 0, 0)
+}
+
+.netbanking-body .form-netbanking .row .col-md-12 {
+  margin-bottom: 15px;
+  text-align: left
+}
+
+.emi-period-details input[type=checkbox]:checked + span::before, .emi-period-details input[type=radio]:checked + span::before, input[type=checkbox]:checked + span::before, input[type=radio]:checked + span::before {
+  content: "\66";
+  color: #42a5f5;
+  background: transparent
+}
+
+.netbanking-body .form-netbanking select.select-another {
+  -moz-appearance: none;
+  background: url(../../assets/images/arrow-select.png) 97% 12px no-repeat #fff;
+  border: 1px solid #f1f2f2;
+  box-shadow: none;
+  font-size: 12px;
+  margin-bottom: 0
+}
+
+.netbanking-body .form-netbanking select.select-another.activeOption {
+  background: url(../../assets/images/arrow-select.png) 97% 12px no-repeat #fafafa
+}
+
+.netbanking-body p.title {
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 20px;
+  width: 100%
+}
+
+.EmiSection .bankdropdown-outer-container {
+  margin: 10px auto 0;
+  width: 60%
+}
+
+.EmiSection .pay-with-emi {
+  margin: 0 auto;
+  width: 60%
+}
+
+.EmiSection .table-outer-container {
+  margin: 20px auto;
+  width: 90%
+}
+
+.EmiSection .table-outer-container table {
+  border: 1px solid #efefef;
+  width: 100%
+}
+
+.EmiSection .table-outer-container table tr.even {
+  background: #fafafa
+}
+
+.EmiSection .table-outer-container table tr.odd {
+  background: #fff
+}
+
+.EmiSection .table-outer-container table td {
+  border: 1px solid #efefef;
+  color: #414242;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px
+}
+
+.EmiSection .table-outer-container table th {
+  background: #fafafa;
+  border-right: 1px solid #efefef;
+  color: #808285;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px
+}
+
+.EmiSection .emi-period-details {
+  margin: 0 auto;
+  width: 90%
+}
+
+.EmiSection .emi-period-details .data-header span {
+  border-bottom: 1px solid #efefef;
+  color: #808285;
+  display: block;
+  float: left;
+  font-size: 12px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 30%
+}
+
+.EmiSection .emi-period-details .data-row label {
+  display: block;
+  float: left;
+  font-weight: 400;
+  padding: 0;
+  text-align: center;
+  width: 30%
+}
+
+.EmiSection .emi-period-details .data-row {
+  clear: both;
+  float: left;
+  margin: 7px 0;
+  width: 100%
+}
+
+.EmiSection .emi-period-details .data-row.inactive {
+  display: none
+}
+
+.EmiSection .emi-period-details .data-row.active {
+  background: #fafafa;
+  min-height: 0;
+  padding: 10px 0
+}
+
+.EmiSection .emi-period-details label.radio-inline {
+  text-align: center;
+  width: 40%
+}
+
+.EmiSection .emi-period-details span.change {
+  color: #333
+}
+
+.EmiSection .emi-period-details .data-header span span {
+  border: 0;
+  clear: both;
+  display: inline;
+  float: none
+}
+
+.clicked .show-total-months-info {
+  display: block
+}
+
+.clicked {
+  position: relative
+}
+
+.show-total-months-info {
+  background: #fafafa;
+  border: 1px solid #f1f2f2;
+  border-radius: 5px;
+  color: #939598;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 40%;
+  z-index: 65
+}
+
+.show-total-months-info p a {
+  color: #414042;
+  display: block;
+  margin: 10px 0;
+  padding: 5px 10px;
+  width: 87%
+}
+
+.show-total-months-info p a:hover {
+  background: #f1f2f2;
+  text-decoration: none
+}
+
+.data-header {
+  float: left;
+  margin: 6px 0;
+  width: 100%
+}
+
+.hide {
+  display: none
+}
+
+td, th {
+  display: table-cell;
+  padding: 0;
+  vertical-align: inherit
+}
+
+#fourthTab i, .btnArrow img, .logo img, .resend img, .steps img, thead {
+  vertical-align: middle
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table
+}
+
+thead {
+  border-color: inherit;
+  display: table-header-group
+}
+
+.EmiSection #cardTransaction {
+  margin: 0 auto;
+  padding-top: 0;
+  width: 90%
+}
+
+.Opened .viewport {
+  height: 180px
+}
+
+.Opened .tab-container {
+  min-height: 150px
+}
+
+.emi-period-details .card-validate .form-control {
+  width: 68%
+}
+
+.payment-gateway-tabs .nav-tabs li a:hover {
+  background-color: #f5f5f5
+}
+
+.payment-gateway-tabs .nav-tabs .active a {
+  background: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.payment-gateway-tabs .nav-tabs .txt {
+  padding-left: 0;
+  position: relative
+}
+
+.payment-gateway-tabs .tab-content {
+  margin-left: 45px
+}
+
+.payment-gateway-tabs .nav-tabs > li.active a .txt {
+  color: #414042
+}
+
+.msg {
+  padding: 0 20px
+}
+
+.pg-health-msg {
+  background: #f15a29;
+  color: #fff;
+  margin: -15px auto 30px;
+  padding: 7px 15px;
+  text-align: center;
+  width: 95%
+}
+
+.dropdown dt a, .dropdown dt a span {
+  color: #414042;
+  display: block;
+  text-decoration: none
+}
+
+.note-error i, .pg-health-msg i {
+  margin-right: 10px
+}
+
+.input-group.filled:-moz-placeholder, .input-group.focuson:-moz-placeholder {
+  color: #414042
+}
+
+.input-group.filled::-moz-placeholder, .input-group.focuson::-moz-placeholder {
+  color: #414042
+}
+
+.dropdown dd, .dropdown dt, .dropdown ul {
+  margin: 0;
+  padding: 0
+}
+
+.dropdown dd {
+  position: relative
+}
+
+.dropdown dt a {
+  background: url(../../assets/images/arrow-select.png) 97% 15px no-repeat #fff;
+  border-color: #f1f2f2;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 12px
+}
+
+.dropdown dt a span {
+  padding: 10px
+}
+
+.dropdown dd ul {
+  background: #fff;
+  border: 1px solid #f1f2f2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #939598;
+  display: none;
+  left: 0;
+  min-width: 170px;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  top: -40px;
+  width: 100%;
+  z-index: 100
+}
+
+.border-bottom-zero, .inline-input .full-length-input {
+  border-bottom: 1px solid transparent
+}
+
+.dropdown dd ul li a {
+  color: #414042;
+  display: block;
+  outline: 0;
+  padding: 6px 10px;
+  text-decoration: none
+}
+
+.dropdown dd ul li a:hover {
+  background: #f1f2f2;
+  text-decoration: none
+}
+
+.dropdown span.value {
+  display: none
+}
+
+b, strong {
+  font-weight: 700
+}
+
+.inline-input .input-group {
+  border-collapse: separate;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: table;
+  float: left;
+  position: relative;
+  width: 50%
+}
+
+#hide-account-list.shown, li .bank-details .bank-name {
+  display: block
+}
+
+.college-address, .edit-address, .education-info {
+  margin-top: 10px
+}
+
+.inline-input .full-length-input {
+  width: 100%
+}
+
+.row .btn-container {
+  clear: both;
+  margin: 0 auto;
+  padding: 20px;
+  width: 30%
+}
+
+.btn-orange {
+  box-sizing: border-box;
+  height: auto
+}
+
+.input-group.border-right-zero {
+  border-right: 1px solid transparent
+}
+
+.border-bottom-zero.focuson, .inline-input .full-length-input.focuson, .input-group.border-right-zero.focuson {
+  border: 1px solid #48b6f9
+}
+
+select#batchYear {
+  padding: 9px 0;
+  width: 88%
+}
+
+.user-details {
+  padding: 0 15px
+}
+
+.onoloadselect {
+  color: #939598
+}
+
+.pay-options {
+  margin: 0;
+  padding: 10px 20px
+}
+
+.checkActive {
+  background: #f7f7f7
+}
+
+.pay-options label {
+  color: #ababad;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: 0 5px;
+  position: static
+}
+
+.pay-options.checkActive label {
+  color: #555
+}
+
+.pay-options label a, a, a#saved-accounts, a#nitro-saved-accounts {
+  color: #42a5f5;
+  font-weight: 300;
+  font-size: 14px
+}
+
+.pay-options input[type=checkbox] + span::before, .pay-options input[type=radio] + span::before {
+  top: 0
+}
+
+.saved-accounts, .nitro-saved-accounts {
+  padding: 10px 20px
+}
+
+.saved-to-card, .nitro-saved-to-card {
+  padding: 0 0 10px;
+  margin-top: -10px
+}
+
+.saved-accounts-nb {
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: left;
+  margin-top: -5px
+}
+
+.pay-now button {
+  background: #a5c339;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%
+}
+
+.pay-now button:active, .pay-now button:focus {
+  outline: 0;
+  border: 0
+}
+
+.pay-now {
+  bottom: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+  margin-top: -10px;
+  position: relative
+}
+
+li .bank-details .account-type {
+  color: #878787;
+  font-size: 11px
+}
+
+li .bank-details {
+  margin: 0 10px;
+  display: inline-block;
+  height: 100%
+}
+
+li .bank-logo-cont, li .bank-logo-contt {
+  height: 100%;
+  margin-left: 20px;
+  text-align: center;
+  width: 33px;
+  display: inline-block;
+  background-image: url(../../assets/images/cardsIconSprite.png);
+  background-repeat: no-repeat;
+  background-size: 44px
+}
+
+li .bank-logo-cont-payu {
+  height: 100%;
+  margin-left: 20px;
+  text-align: center;
+  width: 40px;
+  display: inline-block;
+  background-image: url(../../assets/images/payu_cardScemeSprite.png);
+  background-repeat: no-repeat;
+  background-size: 65px
+}
+
+li .bank-logo-contt {
+  background-image: url(../../assets/images/SavedCards_NetBanking.png);
+  background-size: 76px !important;
+  background-position: -24px -23px
+}
+
+li .savedIcon-CID005 {
+  background-position: -21px -551px
+}
+
+li .savedIcon-CID001 {
+  background-position: -21px -82px
+}
+
+li .savedIcon-CID002 {
+  background-position: -21px -139px
+}
+
+li .savedIcon-CID033 {
+  background-size: 74px !important;
+  background-position: -21px -1678px
+}
+
+li .savedIcon-CID027 {
+  background-size: 74px !important;
+  background-position: -21px -1565px
+}
+
+li .savedIcon-CID012 {
+  background-size: 74px !important;
+  background-position: -21px -551px
+}
+
+li .savedIcon-CID011 {
+  background-size: 74px !important;
+  background-position: -21px -365px
+}
+
+li .savedIcon-CID003 {
+  background-size: 74px !important;
+  background-position: -21px -766px
+}
+
+li .savedIcon-CID016 {
+  background-size: 74px !important;
+  background-position: -21px -937px
+}
+
+li .savedIcon-CID046 {
+  background-size: 74px !important;
+  background-position: -21px -1050px
+}
+
+li .savedIcon-CID019 {
+  background-size: 74px !important;
+  background-position: -21px -1104px
+}
+
+li .savedIcon-CID021 {
+  background-size: 68px !important;
+  background-position: -18px -1105px
+}
+
+li .savedIcon-CID045 {
+  background-size: 74px !important;
+  background-position: -21px -1279px
+}
+
+li .savedIcon-CID023 {
+  background-size: 74px !important;
+  background-position: -21px -1336px
+}
+
+li .savedIcon-CID024 {
+  background-size: 74px !important;
+  background-position: -21px -1392px
+}
+
+li .savedIcon-CID025 {
+  background-size: 74px !important;
+  background-position: -21px -1450px
+}
+
+li .savedIcon-CID026 {
+  background-size: 74px !important;
+  background-position: -21px -1508px
+}
+
+li .savedIcon-CID006 {
+  background-size: 74px !important;
+  background-position: -21px -250px
+}
+
+li .savedIcon-CID009 {
+  background-size: 74px !important;
+  background-position: -21px -416px
+}
+
+li .savedIcon-CID050 {
+  background-size: 74px !important;
+  background-position: -21px -78px
+}
+
+li .savedIcon-CID029 {
+  background-size: 61px !important;
+  background-position: -12px -2182px
+}
+
+li .savedIcon-CID008 {
+  background-size: 72px !important;
+  background-position: -21px -854px
+}
+
+li .savedIcon-CID044 {
+  background-size: 72px !important;
+  background-position: -21px -2023px
+}
+
+li .savedIcon-CID028 {
+  background-size: 79px !important;
+  background-position: -24px -1733px
+}
+
+li .savedIcon-CID010 {
+  background-size: 78px !important;
+  background-position: -23px -744px
+}
+
+li .savedIcon-CID013 {
+  background-size: 74px !important;
+  background-position: -21px -551px
+}
+
+li .savedIcon-CID014 {
+  background-size: 74px !important;
+  background-position: -21px -551px
+}
+
+li .savedIcon-CID015 {
+  background-size: 74px !important;
+  background-position: -21px -551px
+}
+
+li .savedIcon-CID070 {
+  background-size: 74px !important;
+  background-position: -21px -3850px
+}
+
+li .savedIcon-CID007 {
+  background-size: 74px !important;
+  background-position: -21px -307px
+}
+
+li .savedIcon-CID041 {
+  background-size: 68px !important;
+  background-position: -18px -2172px
+}
+
+li .savedIcon-CID042 {
+  background-size: 68px !important;
+  background-position: -19px -2224px
+}
+
+
+.savedIcon-CID005 {
+  background-size: 72px !important;
+  background-position: -21px -521px
+}
+
+.savedIcon-MTRO {
+  background-position: -6px -100px
+}
+
+.savedIcon-AMEX {
+  background-position: -6px -230px
+}
+
+.savedIcon-VISA {
+  background-position: -6px -66px
+}
+
+.savedIcon-MCRD {
+  background-position: -6px -34px
+}
+
+.savedIconPayu-MAES, .savedIconPayu-SMAESTRO, .savedIconPayu-MAESTRO {
+  background-position: -14px -17px
+}
+
+.savedIconPayu-AMEX {
+  background-position: -14px -217px
+}
+
+.savedIconPayu-VISA {
+  background-position: -13px -167px
+}
+
+.savedIconPayu-MAST {
+  background-position: -13px -18px
+}
+
+.savedIconPayu-DINERS, .savedIconPayu-DINR {
+  background-position: -13px -316px
+}
+
+.savedIconPayu-RUPAY {
+  background-position: -12px -65px
+}
+
+.savedIconPayu-CC, .savedIconPayu-DC, .savedIconPayu- {
+  background-position: -13px -368px
+}
+
+li .radio-btn-cont {
+  float: left;
+  margin-top: 8px
+}
+
+.saved-accounts-list li {
+  display: block;
+  padding: 10px 20px;
+  position: relative
+}
+
+.usingSaved {
+  color: #939598;
+  font-weight: 400;
+  margin: 0
+}
+
+p#more-account-list {
+  color: #555;
+  padding: 8px 20px
+}
+
+label.amount {
+  width: 100px
+}
+
+.bank-details label.amount {
+  display: none;
+  position: absolute;
+  right: 31px;
+  top: 7px
+}
+
+.checkActive .bank-details label.amount {
+  display: inline
+}
+
+.netbanking-body .radio-inline {
+  margin: 0 19px 0 0;
+  position: relative;
+  width: 28.5%
+}
+
+.netbanking-body .radio-inline:last-child {
+  margin-right: 0
+}
+
+.viewAllCards .saved-accounts-list {
+  display: block;
+  margin: 10px 0
+}
+
+.viewAllCards .navbar-default {
+  height: 50px
+}
+
+.viewAllCards .payment-info {
+  left: 130px;
+  top: 15px
+}
+
+.mcpAmtBox {
+  display: none;
+  text-transform: none;
+  font-size: 10px;
+  margin: -3px 0 0 0;
+  padding: 0;
+  vertical-align: middle;
+  position: relative
+}
+
+.mcpAmtBoxTxt {
+  font-size: 10px !important;
+  font-weight: 300 !important
+}
+
+.viewAllCards .navbar-header {
+  float: left;
+  height: 50px;
+  position: relative;
+  width: 100%
+}
+
+.viewAllCards .navbar-brand {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  box-shadow: none;
+  float: none;
+  height: auto;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  width: auto
+}
+
+.viewAllCards .brandlogo {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 30px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 5px;
+  width: 30px
+}
+
+.viewAllCards .brandlogo img {
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+  width: 30px
+}
+
+.viewAllCards #hide-account-list {
+  color: #555;
+  display: block;
+  padding: 10px 20px 10px 50px
+}
+
+.viewAllCards #myTabContent {
+  padding: 0
+}
+
+.inputErrBorder {
+  border: 1px solid #f16158 !important
+}
+
+.error-message.active-error + div p.title {
+  padding: 0 20px 10px
+}
+
+.error-message {
+  left: 0;
+  margin: 0 auto;
+  padding: 7px 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -65px;
+  transition: all .5s ease 0s;
+  width: 90%;
+  z-index: -1
+}
+
+.note-error {
+  background: #ef4136;
+  color: #fff;
+  text-align: left;
+  width: 80%
+}
+
+.dynamic-pricing-msg {
+  background: #27aae1;
+  color: #fff
+}
+
+.error-message.active-error {
+  top: 0;
+  z-index: 1
+}
+
+.error-message.active-error + div, .error-message.active-error + form {
+  padding-top: 60px !important
+}
+
+.errorActive .pay-now {
+  padding: 10px 20px
+}
+
+#emi .netbanking-body input[type=checkbox] + span::before, #emi .netbanking-body input[type=radio] + span::before, #netbanking input[type=checkbox] + span::before, #netbanking input[type=radio] + span::before {
+  content: none
+}
+
+#netbanking input[type=checkbox]:checked + span::before, #netbanking input[type=radio]:checked + span::before, #emi .emi-period-details input[type=checkbox]:checked + span::before, #emi .emi-period-details input[type=radio]:checked + span::before, #emi input[type=checkbox]:checked + span::before, #emi input[type=radio]:checked + span::before, #emi .emi-period-details input[type=checkbox]:checked + span::before, #emi .emi-period-details input[type=radio]:checked + span::before {
+  background: #fff;
+  font-family: icpIcons;
+  content: "\66";
+  color: #48b6f9
+}
+
+#netbanking-body input[type=checkbox]:checked + span::before, #netbanking-body input[type=radio]:checked + span::before, #netbanking-body-emi input[type=checkbox]:checked + span::before, #netbanking-body-emi input[type=radio]:checked + span::before {
+  background: #fff;
+  font-family: icpIcons;
+  color: #42a5f5 !important;
+  content: "\66" !important
+}
+
+#netbanking-body .pghealtherr input[type=checkbox]:checked + span::before, #netbanking-body .pghealtherr input[type=radio]:checked + span::before {
+  color: #c00 !important;
+  content: "\67" !important
+}
+
+.netbanking-body .form-netbanking .pghealtherr input[type=radio]:checked + span span, .pghealtherr input[type=checkbox]:checked ~ span img, .pghealtherr input[type=radio]:checked ~ span img {
+  border: 1px solid #c00
+}
+
+.pgHealthBorderErr {
+  border: 1px solid #c00 !important
+}
+
+.pg-error {
+  color: white;
+  border-radius: 0 0 4px 4px;
+  clear: both;
+  background-color: rgba(255, 42, 42, 0.86);
+  text-align: left;
+  margin: 0 15px;
+  font-size: 12px;
+  padding: 5px 0 3px;
+  display: none
+}
+
+.pg-error i {
+  vertical-align: top;
+  margin-left: 5px
+}
+
+.pgText {
+  vertical-align: top !important;
+  width: 90%;
+  padding-top: 3px;
+  margin: -4px 0 0;
+  line-height: 15px;
+  margin-top: -4px !important
+}
+
+[data-tooltip] {
+  color: rgba(255, 255, 255, .7);
+  position: relative;
+  z-index: 2
+}
+
+[data-tooltip]::after, [data-tooltip]::before {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden
+}
+
+[data-tooltip]::before {
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  bottom: 150%;
+  color: rgba(255, 255, 255, .7);
+  content: attr(data-tooltip);
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  position: absolute;
+  right: -24px;
+  text-align: center;
+  width: 182px
+}
+
+[data-tooltip]::after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid hsla(0, 0%, 20%, .9);
+  bottom: 150%;
+  color: rgba(255, 255, 255, .7);
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+  margin-left: -5px;
+  position: absolute;
+  right: 0;
+  width: 0
+}
+
+.dpScharge[data-tooltip]::before, .conveFee[data-tooltip]::before {
+  background-color: hsla(0, 0%, 20%, .9);
+  border-radius: 3px;
+  bottom: 20px;
+  color: rgba(255, 255, 255, .7);
+  content: attr(data-tooltip);
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  margin-left: -80px;
+  padding: 7px;
+  position: absolute;
+  right: -1px;
+  text-align: center;
+  max-width: 321px;
+  min-width: 321px
+}
+
+.dpScharge[data-tooltip]::after, .conveFee[data-tooltip]::after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid hsla(0, 0%, 20%, .9);
+  bottom: 18px;
+  color: rgba(255, 255, 255, .7);
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+  margin-left: 7px;
+  position: absolute;
+  right: 2px;
+  width: 0
+}
+
+.mcpTooltip, .mcpTooltip:hover {
+  color: #bcbec0 !important
+}
+
+.step-one p, .step-two p, .terms {
+  line-height: 10px
+}
+
+[data-tooltip]:hover::after, [data-tooltip]:hover::before {
+  color: rgba(255, 255, 255, .7);
+  opacity: 1;
+  visibility: visible
+}
+
+.overlay {
+  background: rgba(0, 0, 0, .75);
+  height: 130px
+}
+
+.section {
+  background: #fff;
+  padding: 10px 0 0;
+  text-align: center
+}
+
+p.header-data {
+  color: #414042;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.otp-flow p.btn-pay {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%
+}
+
+.otp-flow .input-group {
+  border-radius: 4px;
+  margin: 20px auto 10px;
+  text-align: left;
+  width: 60%
+}
+
+.resend-otp, .termss {
+  margin: 10px 0;
+  font-size: 12px
+}
+
+.otp-flow .input-group input {
+  padding-left: 20px;
+  width: 90%
+}
+
+.loading, .payment-sucess {
+  width: 100%;
+  position: absolute
+}
+
+.resend-otp {
+  color: #6d6e71;
+  display: block;
+  font-weight: 400
+}
+
+.termss {
+  color: #cacbcd;
+  display: inline-block
+}
+
+.termss a {
+  font-size: 12px
+}
+
+.otp-screen {
+  height: 331px;
+  display: none
+}
+
+.payment-sucess i.fa.fa-check {
+  color: #2bb673;
+  font-size: 50px;
+  margin-bottom: 20px
+}
+
+.sucess-style {
+  font-size: 50px;
+  color: #2bb673;
+  margin-bottom: 40px
+}
+
+.sucess-msg {
+  color: #414042;
+  font-size: 22px;
+  margin-bottom: 20px
+}
+
+.subinfo span {
+  color: #414042;
+  font-weight: 700
+}
+
+.subinfo {
+  color: #808285;
+  margin-bottom: 60px;
+  position: relative
+}
+
+.redirecting-info {
+  color: #9c9c9c;
+  margin-top: 20px
+}
+
+.payment-sucess {
+  background: #fff;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  padding: 35px 20px 0;
+  text-align: center;
+  z-index: 9
+}
+
+.loading {
+  background: rgba(0, 0, 0, .7);
+  border: 0;
+  content: "";
+  display: inline-block;
+  left: 0;
+  padding-top: 100px;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  border-radius: 3px;
+  height: 498px;
+  height: 100%
+}
+
+.loading-userDetails {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  border: 0;
+  content: "";
+  display: inline-block;
+  left: 0;
+  padding-top: 100px;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  border-radius: 4px;
+  height: 498px;
+  background-image: url(../../assets/images/oval.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none
+}
+
+.continue .loading {
+  background-image: url(../../assets/images/oval.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block !important
+}
+
+.continueToPay .loading-userDetails {
+  display: block !important
+}
+
+.upiLoad .loading {
+  display: block !important
+}
+
+.loading-text {
+  background: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  bottom: 0;
+  font-size: 16px;
+  padding: 90px 0 25px;
+  position: absolute;
+  text-align: center;
+  top: auto;
+  width: 360px;
+  z-index: 6;
+  font-weight: bold
+}
+
+.loading-text-upi, .loading-text-wallet, .nitro-loading-text-wallet {
+  display: none;
+  background: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  top: auto;
+  width: 100%;
+  z-index: 6
+}
+
+.nitro-loading-text-wallet {
+  top: 1px
+}
+
+.cancelUPI {
+  display: inline-block;
+  padding: 20px 0 0;
+  font-size: 14px;
+  color: #42a5f5;
+  font-weight: 300;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: underline
+}
+
+.upi-loading-box {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  display: block
+}
+
+.upi-cancel-box {
+  padding: 17px 15px
+}
+
+.upi-cancel-form {
+  display: none
+}
+
+.upi-cancel-title {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  font-weight: 400
+}
+
+.bolt-form-option-box {
+  padding: 10px 0 25px 0
+}
+
+.upi-form-option {
+  position: relative;
+  margin: 10px 0
+}
+
+.bolt-form-option {
+  position: relative;
+  height: 35px;
+  margin: 0
+}
+
+.upi-option, .bolt-close-option {
+  vertical-align: middle;
+  text-align: left
+}
+
+.upi-redio-icon, .bolt-close-redio-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px
+}
+
+.upi-radio, .bolt-close-radio {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  left: 0;
+  z-index: 1
+}
+
+.upi-radio + .upi-option .upi-redio-icon::before, .bolt-close-radio + .bolt-close-option .bolt-close-redio-icon::before {
+  color: #929497;
+  content: "\73" !important;
+  font-family: icpIcons;
+  font-size: 16px;
+  font-weight: 400
+}
+
+.upi-radio:checked + .upi-option .upi-redio-icon::before, .bolt-close-radio:checked + .bolt-close-option .bolt-close-redio-icon::before {
+  color: #42a5f5 !important;
+  content: "\66" !important
+}
+
+.upi-redio-txt, .bolt-close-redio-txt {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+  position: absolute;
+  left: 25px
+}
+
+.bolt-close-redio-txt {
+  display: inline-block;
+  top: 4px;
+  line-height: 13px
+}
+
+.pay-now-upi-cancel {
+  margin: 10px 0;
+  text-align: right
+}
+
+.pay-now-upi-cancel button {
+  width: 25%
+}
+
+.retry .loading-text {
+  padding: 25px 0 35px
+}
+
+.upi_vpa_msg_box {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px
+}
+
+.upi_vpa_msg_til {
+  color: #a5c339;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 3px
+}
+
+.upi_vpa_msg {
+  font-weight: 300;
+  color: #808285;
+  font-size: 13px
+}
+
+.upi_vpa_msgs {
+  margin-top: -3px
+}
+
+.upi_vpa_msg_links, .lp_msg_links {
+  font-weight: 300;
+  color: #808285;
+  font-size: 13px;
+  padding-top: 5px
+}
+
+.upi_vpa_tab_Links, .lp_tab_Links {
+  display: inline-block;
+  color: #42a5f5;
+  cursor: pointer
+}
+
+.upi_vpa_tab_or, .lp_tab_or {
+  display: inline-block
+}
+
+.loading-text span:first-child {
+  color: #a5c339
+}
+
+.read-only-fields .pay-now {
+  margin-top: -20px
+}
+
+.loading-text img {
+  margin: 0 auto
+}
+
+.retry .cancel-this {
+  z-index: 6
+}
+
+p.retryText {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 15px 0 0;
+  text-align: center;
+  color: #42a5f5;
+  font-weight: 400
+}
+
+#cancelTab, #fourthTab {
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer
+}
+
+.retry .pay-now {
+  margin: 0 auto;
+  width: 60%
+}
+
+#fourthTab {
+  border-bottom: 1px solid #e6e7e8;
+  color: #939598;
+  height: 60%;
+  padding-right: 4px;
+  padding-top: 14px;
+  right: 0;
+  width: 15px
+}
+
+#otherPaymentOption .payment-gateway-tabs .nav-tabs li {
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 0 none;
+  float: none;
+  margin: 0 auto;
+  width: 100%
+}
+
+.floatLeft, .logo {
+  float: left
+}
+
+#otherPaymentOption .payment-gateway-tabs .nav-tabs li.active a {
+  background: rgba(0, 0, 0, 0);
+  color: #414042
+}
+
+#otherPaymentOption .payment-gateway-tabs .nav-tabs li a {
+  border-bottom: 1px solid #efefef;
+  margin: 0 auto;
+  width: 50%
+}
+
+#otherPaymentOption .payment-gateway-tabs .nav-tabs li a:hover, #otherPaymentOption .payment-gateway-tabs .nav-tabs li:hover {
+  background-color: #fff;
+  color: #414042
+}
+
+#otherPaymentOption {
+  /*background: url(../images/borderd.png) center bottom no-repeat rgba(0, 0, 0, 0);*/
+  padding-bottom: 35px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 12133
+}
+
+.otherPaymentOption-title {
+  background: #fff;
+  font-weight: 500;
+  padding: 10px 15px
+}
+
+#otherPaymentOption .payment-gateway-tabs {
+  background: #fafafa
+}
+
+#otherPaymentOption .payment-gateway-tabs .sidebar-menu {
+  margin-top: 5px
+}
+
+.EmiSection .emi-period-details .data-row.active, .logo {
+  margin: 0
+}
+
+#cancelTab {
+  color: #939598;
+  right: 5px;
+  top: 8px;
+  width: 19px;
+  z-index: 5666
+}
+
+.four-tab .nav-tabs li:nth-child(3) {
+  width: 29%
+}
+
+.EmiSection .emi-period-details .data-header span:first-child {
+  width: 40%
+}
+
+.EmiSection .emi-period-details input[type=checkbox] + span::before, .EmiSection .emi-period-details input[type=radio] + span::before {
+  left: 0
+}
+
+.emmiInfo span.bankInfo {
+  color: #6b6b6c;
+  display: block;
+  font-weight: 700;
+  width: 70%
+}
+
+.emmiInfo span {
+  color: #a8a9ab;
+  display: inline-block
+}
+
+.wrap a.termncond {
+  display: block;
+  float: left;
+  padding: 0
+}
+
+a {
+  text-decoration: none
+}
+
+a, a:focus, a:hover {
+  color: #42a5f5;
+  outline: 0
+}
+
+.stepThree .emmiInfo {
+  padding: 10px 20px
+}
+
+#ChangeBank, #ChangeTenure, #ChangeBankFromTenure {
+  color: #42a5f5;
+  cursor: pointer;
+  display: block
+}
+
+#ChangeBankFromTenure {
+  float: right;
+  padding-right: 20px
+}
+
+.appended-li.payment-gateway-tabs .nav-tabs li {
+  display: none
+}
+
+.appended-li.payment-gateway-tabs .nav-tabs li:nth-child(-n+3) {
+  display: block
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0;
+  width: 50%
+}
+
+.email {
+  color: #757575;
+  float: right;
+  font-size: 12px;
+  margin: 14px 0 0;
+  text-align: right
+}
+
+.logo img {
+  margin-right: 20px;
+  width: 121px
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 81%
+}
+
+.title span {
+  font-weight: 700
+}
+
+.steps {
+  font-size: 14px;
+  padding: 8px 27px;
+  text-align: left
+}
+
+.steps img {
+  margin-right: 20px
+}
+
+.steps .step1Img {
+  height: 29px;
+  width: 28px
+}
+
+.steps .step2Img {
+  height: 19px;
+  width: 44px
+}
+
+.steps .step3Img {
+  height: 26px;
+  width: 38px
+}
+
+.steps span {
+  display: inline-block;
+  width: 74%
+}
+
+.steps span.img {
+  float: left;
+  text-align: center;
+  width: 23%
+}
+
+.steps span.checkoutSpan {
+  margin-top: 4px
+}
+
+.steps span.stepsSpanTxt {
+  padding-left: 6px
+}
+
+.steps p:first-child {
+  margin: 2em 0
+}
+
+.steps p {
+  margin: 4em 0
+}
+
+.mobilebanner img {
+  width: 90%
+}
+
+.activestate li {
+  background: #d7d7d7;
+  border-radius: 50%;
+  float: left;
+  height: 10px;
+  margin: 4px;
+  width: 10px
+}
+
+.activestate li.activestage {
+  background: #4d4d4d
+}
+
+.sslMainContainer {
+  padding-bottom: 0
+}
+
+.step-one, .step-three, .step-two {
+  clear: both;
+  color: #4d4d4d;
+  font-size: 12px;
+  padding: 0 20px;
+  text-align: center
+}
+
+.enter-otp {
+  background: #f5f5f5;
+  border: 1px solid #e1e1e1;
+  margin: 15px auto;
+  position: relative;
+  text-align: left
+}
+
+.enter-otp input, span.resend button {
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  width: 100%
+}
+
+.enter-otp input {
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 10px 0 10px 10px
+}
+
+span.resend {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+span.resend button {
+  color: #a3a3a3;
+  cursor: pointer;
+  display: block;
+  font-weight: 400;
+  height: 100%;
+  padding-right: 10px;
+  text-transform: uppercase
+}
+
+.cardInfo input {
+  background: #f5f5f5;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 34%
+}
+
+p.cardInfo {
+  margin: 20px auto;
+  text-align: left;
+  width: 100%
+}
+
+.popup p, span.spanlabel {
+  text-align: center
+}
+
+span.spanlabel {
+  display: inline-block;
+  width: 20%
+}
+
+input#dateExp {
+  width: 44%
+}
+
+.resend img {
+  margin-right: 7px
+}
+
+.btnArrow img {
+  margin-left: 10px
+}
+
+button, input {
+  background: rgba(0, 0, 0, 0);
+  border: 0
+}
+
+input:invalid {
+  box-shadow: none
+}
+
+input:-moz-submit-invalid {
+  box-shadow: none
+}
+
+input:-moz-ui-invalid {
+  box-shadow: none
+}
+
+button:active, button:focus {
+  outline: 0;
+  border: 0
+}
+
+p.terms-agree-span b {
+  border-bottom: 1px solid #4c4c4c;
+  color: #4c4c4c;
+  font-weight: 700
+}
+
+p.terms-agree-span {
+  clear: both;
+  color: #4c4c4c;
+  font-size: 12px;
+  padding: 20px 0;
+  word-spacing: 0
+}
+
+.secure-citrus {
+  color: #ababab;
+  margin-top: 50px
+}
+
+.secure-citrus img {
+  height: 18px;
+  vertical-align: top;
+  width: 13px
+}
+
+.secure-citrus span {
+  display: inline-block;
+  font-size: 10px
+}
+
+.secure-citrus p {
+  display: inline-block;
+  margin-right: 20px
+}
+
+p.merchant-logo {
+  border-left: 1px solid #ccc;
+  margin: 0;
+  padding: 0 0 0 20px;
+  vertical-align: middle
+}
+
+.footer .merchant-logo .cardTypes {
+  width: 160px
+}
+
+.merchant-logo img {
+  height: 18px;
+  width: 50px
+}
+
+.dateDetails {
+  float: left
+}
+
+.dateDetails span {
+  color: #818181;
+  float: left;
+  font-size: 15px;
+  margin-left: 2em;
+  padding-top: 7px
+}
+
+.marginB {
+  margin-bottom: 10px
+}
+
+.terms {
+  text-decoration: underline
+}
+
+.popup {
+  background: #fff;
+  border-radius: 10px;
+  height: 274px;
+  left: 13px;
+  margin: 0 auto;
+  position: fixed;
+  top: 138px;
+  width: 294px;
+  z-index: 100
+}
+
+.popup .errorTxt {
+  color: #e3234e;
+  font-size: 24px
+}
+
+.popup .successTxt {
+  color: #58ba57;
+  font-size: 24px
+}
+
+.popup .messageTxt {
+  font-size: 12px
+}
+
+.popup .redirectingTxt {
+  font-size: 12px;
+  margin-top: 80px
+}
+
+#slideLeft {
+  transition: left .5s ease 0s
+}
+
+.openSidebar {
+  left: 0;
+  position: absolute;
+  top: 23em
+}
+
+.rightOverlay {
+  background-color: #000;
+  float: right;
+  height: 517px;
+  left: 0;
+  opacity: .4;
+  position: relative;
+  top: 0;
+  width: 19%;
+  z-index: 1
+}
+
+.activestate ul {
+  bottom: 15px;
+  left: 46%;
+  position: absolute
+}
+
+.backend-refresh-error, .backend-refresh-error .section, .bottom {
+  right: 0;
+  left: 0;
+  position: absolute
+}
+
+form#form-details {
+  box-sizing: border-box;
+  padding: 14px 20px;
+  width: 100%
+}
+
+form#form-details .input-group {
+  background: #fafafa;
+  border-radius: 4px
+}
+
+#form-details .first-child .input-group, .overlay-div {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+form#form-details .email-container .input-group {
+  border-top: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 10px
+}
+
+.param-1 form#form-details .email-container .input-group {
+  border-top: 1px solid #d8d8d8;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 6px
+}
+
+.details-btn-box {
+  padding-top: 2px
+}
+
+.param-1 .details-btn-box {
+  margin-top: 6px
+}
+
+.user-info-email-mobile {
+  height: 86px;
+  width: 100%;
+  display: inline-block
+}
+
+.onlyMobile .user-info-email-mobile .first-child {
+  margin-top: 20px
+}
+
+.onlyMobile .only-mobile-style {
+  border-radius: 4px !important
+}
+
+.user-info.openDiv, .user-info.openDiv + .collapse {
+  background: #f5f5f5;
+  padding: 10px
+}
+
+.activeLink .down, .up {
+  display: none
+}
+
+.activeLink .up {
+  display: inline-block
+}
+
+.panel-options {
+  position: relative
+}
+
+.overlay-div {
+  background: rgba(0, 0, 0, .7);
+  cursor: not-allowed;
+  height: 100%;
+  left: 0;
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  width: 360px;
+  z-index: 54555;
+  display: block !important
+}
+
+.continue .overlay-div {
+  display: none !important
+}
+
+.continueToPay .overlay-div {
+  display: none !important
+}
+
+.upiLoad .overlay-div {
+  display: none !important
+}
+
+.MOBILE .overlay-div {
+  height: 120%
+}
+
+p.field-label {
+  color: #939598;
+  font-size: 12px;
+  margin: 0
+}
+
+p.field-value {
+  color: #414042;
+  font-size: 16px;
+  font-weight: 400
+}
+
+.readonlyinfo {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 20px;
+  width: 50%
+}
+
+.newCCDC, .nitroShowLabel {
+  position: absolute;
+  font-size: 13px;
+  right: 20px;
+  color: #42a5f5;
+  font-weight: 300;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none
+}
+
+.viewAllCards div.active {
+  min-height: 180px
+}
+
+.read-only-fields.active {
+  height: 253px
+}
+
+.footer .cardss img {
+  padding: 8px 0
+}
+
+.footerCitrusIcon {
+  width: 60px
+}
+
+.footerCardsIcon {
+  width: 258px
+}
+
+.emi-period-details input[type=checkbox] + span::before, .emi-period-details input[type=radio] + span::before {
+  top: 0
+}
+
+#wallet .saved-accounts-list input[type=checkbox] + span::before, .saved-accounts-list input[type=radio] + span::before {
+  top: 4px
+}
+
+.viewAllCards #wallet {
+  padding-bottom: 0
+}
+
+.footer-overlay {
+  display: none
+}
+
+.footer {
+  position: relative
+}
+
+.fourTabOpen .footer-overlay {
+  background: rgba(0, 0, 0, .75);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 41
+}
+
+.overlaydiv {
+  display: none
+}
+
+.otherPaymentOption-overlay, .allTabsData {
+  display: none;
+  background: #000;
+  bottom: 0;
+  height: 377px;
+  left: 0;
+  opacity: .75;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2131;
+  border-radius: 0 0 4px 4px;
+  width: 360px;
+  width: 360.3px
+}
+
+.MOBILE .otherPaymentOption-overlay, .allTabsData {
+  width: 100%
+}
+
+.other-pay {
+  position: relative;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #d8d8d8
+}
+
+.otherTbList {
+  padding: 10px;
+  position: relative;
+  cursor: pointer
+}
+
+.otherTbList:hover {
+  background-color: #f5f5f5
+}
+
+.otherTabLists {
+  text-align: center
+}
+
+.tbBgBox {
+  background: white;
+  width: 100%;
+  height: 13px;
+  position: relative
+}
+
+.tbBg {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+  background-size: 17px;
+  background-position: center;
+  z-index: 1;
+  bottom: -4px
+}
+
+.closeTbDrop {
+  position: absolute;
+  right: 10px;
+  font-size: 18px;
+  color: #414042 !important;
+  cursor: pointer;
+  visibility: hidden
+}
+
+.tbBottomBorder {
+  background-image: -webkit-linear-gradient(300deg, white, #d8d8d8, white);
+  background-image: -moz-linear-gradient(300deg, white, #d8d8d8, white);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d8d8d8', gradientType='1');
+  background-image: -o-linear-gradient(300deg, #fff, #d8d8d8 50%, #fff 100%);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0
+}
+
+.allTabsData {
+  opacity: 1;
+  z-index: 2132;
+  background: none !important
+}
+
+.show-details a i {
+  color: #333
+}
+
+.loader, .wraploader, .wraploader div {
+  position: absolute
+}
+
+.loader {
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  top: 27%
+}
+
+.wraploader {
+  height: 150px;
+  left: -25px;
+  top: -20px;
+  -ms-transform: scale(.3);
+  -webkit-transform: scale(.3);
+  transform: scale(.3);
+  width: 150px;
+  background: url(../../assets/images/puff_orange.svg) no-repeat;
+  background-size: 100%
+}
+
+.wraploader div {
+  background: #a5c339;
+  border-radius: 50px;
+  height: 30px;
+  left: 45px;
+  top: 35px;
+  width: 10px
+}
+
+.invalidErr {
+  border: 1px solid red !important
+}
+
+.Opened div.active {
+  height: 130px !important;
+  overflow: hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  body:not(.no-responsive) .Opened div.active {
+    height: 131px !important;
+    overflow: hidden
+  }
+}
+
+.param-1 .Opened div.active {
+  height: 174px !important
+}
+
+.Opened .pay-now {
+  margin: -20px 0;
+  padding: 0 20px 5px
+}
+
+.cancel-this a:focus i, .cancel-this a:hover i {
+  color: #fff
+}
+
+.cancel-this-errPage a:focus i, .cancel-this-errPage a:hover i {
+  color: #4c4b4d
+}
+
+.show-details {
+  position: relative
+}
+
+.stepTwo {
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px
+}
+
+.start-otp-screen-one {
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 5
+}
+
+.pull-right {
+  float: right
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../../assets/images/arrow-select.png) 90% 50% no-repeat #ddd;
+  border: 0;
+  padding: 7px 27px 7px 10px;
+  text-indent: .01px;
+  text-overflow: ""
+}
+
+.backend-refresh-error {
+  background: #f1f2f2;
+  border-radius: 4px;
+  bottom: 4px;
+  top: 0;
+  z-index: 60001;
+  height: 498px
+}
+
+.backend-refresh-error .section {
+  background: 0;
+  bottom: 0;
+  text-align: center;
+  top: 20%
+}
+
+.backend-refresh-error .section i {
+  color: #ef4136;
+  font-size: 52px
+}
+
+.back-message {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px
+}
+
+.back-message + p {
+  font-size: 12px;
+  margin-bottom: 30px
+}
+
+.tabs-1 li {
+  width: 100% !important
+}
+
+.tabs-2 li {
+  width: 50% !important
+}
+
+.tabs-3 li {
+  width: 33% !important
+}
+
+.tabs-4 li {
+  width: 25% !important
+}
+
+.backend-refresh-error .section .btn-pay {
+  margin: 0 auto;
+  padding: 5px 20px;
+  text-align: center
+}
+
+.bottom {
+  bottom: 10px
+}
+
+.redirecting-msg {
+  color: #ababad;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center
+}
+
+.backend-refresh-error .section .back-message + p {
+  color: #96989a;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px
+}
+
+.backend-refresh-error .cancel-this i {
+  color: #4c4b4d
+}
+
+.netbanking-body input[type=radio] + span::before {
+  content: none !important
+}
+
+input[type=checkbox] + span::before, input[type=radio] + span::before {
+  background: #fff;
+  border-radius: 50%;
+  color: #929497;
+  content: "\73" !important;
+  font-family: icpIcons;
+  font-size: 16px;
+  font-weight: 400;
+  height: 17px;
+  left: -6px;
+  position: absolute;
+  top: 10px;
+  width: 10px
+}
+
+input[type=checkbox]:checked + span::before, .saved-card input[type=radio]:checked + span::before, .saved-nb input[type=radio]:checked + span::before, .wallet-saved-card input[type=radio]:checked + span::before {
+  color: #42a5f5 !important;
+  content: "\66" !important
+}
+
+.saved-card input[type=checkbox], .saved-card input[type=radio], .saved-nb input[type=checkbox], .saved-nb input[type=radio], .wallet-saved-card input[type=radio], .wallet-saved-card input[type=checkbox] {
+  width: 100% !important;
+  height: 100% !important;
+  cursor: pointer
+}
+
+.savedCardRadio {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0
+}
+
+.saveCardBox {
+  width: 100%;
+  height: 33px;
+  position: relative
+}
+
+.saveCardBoxRadio {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 13px
+}
+
+.savedCardInputBox, .walletSavedCardInputBox {
+  position: absolute;
+  display: none;
+  width: 70px;
+  height: 100%;
+  right: 0;
+  border-radius: 4px;
+  z-index: 2;
+  cursor: pointer;
+  background: white
+}
+
+.savedCardRadio input {
+  z-index: 1
+}
+
+.checkActive .savedCardInputBox, .checkActive .walletSavedCardInputBox {
+  display: inline-block
+}
+
+.splitTotalAmt {
+  position: absolute;
+  display: inline-block;
+  width: 75px;
+  margin-top: 0;
+  z-index: 2;
+  right: 58px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 13px
+}
+
+.splitTotalAmt.nb {
+  margin-top: 19px;
+  display: none
+}
+
+.checkActive .splitTotalAmt.nb {
+  display: inline-block !important
+}
+
+.walletSavedCardInputBox.insuffici {
+  width: 55px
+}
+
+.savedCardInput, .walletSavedCardInput {
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center
+}
+
+.saved-card-list, .saved-nb-list {
+  max-height: 250px;
+  overflow-y: auto
+}
+
+.wallet-saved-card-list {
+  max-height: 160px;
+  overflow-y: hidden
+}
+
+.wallet-saved-card-list.scrollB {
+  overflow-y: auto !important
+}
+
+.MOBILE .saved-card-list, .saved-nb-list, .MOBILE .wallet-saved-card-list {
+  max-height: 100%;
+  overflow-y: auto
+}
+
+.pay-with-card-nb {
+  margin: 5px 0 0;
+  position: relative
+}
+
+.other-option-card-nb {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  cursor: pointer
+}
+
+.activeColor {
+  background: #f7f7f7
+}
+
+.ios-switch:checked + div {
+  color: #42a5f5
+}
+
+.upiProcessingLoader {
+  display: none;
+  background: #fff;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: -7px;
+  z-index: 1;
+  border-radius: 0 0 4px 4px;
+  z-index: 6
+}
+
+.upiProLoader {
+  width: 100%;
+  text-align: center;
+  height: 65%;
+  position: relative
+}
+
+.upiProLoader svg {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.upiProcLoader {
+  top: -55px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+  -ms-transform: scale(.3);
+  -webkit-transform: scale(.3);
+  transform: scale(.3);
+  width: 150px;
+  height: 150px;
+  background: url(../../assets/images/puff_orange.svg) no-repeat;
+  background-size: 100%
+}
+
+.upiProcLoaderBox {
+  text-align: center
+}
+
+.upiProcLoaderTxt {
+  font-size: 16px;
+  font-weight: 400
+}
+
+.upi-title {
+  padding: 0 0 10px;
+  text-align: center
+}
+
+.upi-title {
+  padding: 0 0 10px
+}
+
+.upi-savedVPN .upi-title {
+  margin-top: -4px
+}
+
+.upi-title-txt {
+  color: #a5c339;
+  font-weight: 300;
+  margin: 0
+}
+
+.upi-savedVPN .upi-title-txt {
+  color: #939598;
+  font-weight: 400
+}
+
+.upi-howWorks {
+  position: absolute;
+  font-size: 13px;
+  right: 20px;
+  color: #42a5f5;
+  font-weight: 300;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle
+}
+
+.upi-howWorks span {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 0 0 3px
+}
+
+.upi-input-group {
+  border-radius: 4px;
+  margin-top: 5px
+}
+
+.tez-input-group {
+  border-radius: 4px
+}
+
+.tranTimer-upi {
+  font-size: 14px;
+  color: #fff;
+  background: #a5c339;
+  font-weight: 100;
+  padding: 6px 0 0
+}
+
+.tranTimeOut-upi {
+  display: none;
+  font-size: 14px;
+  color: #fff;
+  background: #f16158;
+  font-weight: 100;
+  padding: 6px 0 5px 0
+}
+
+.slideBox-upi {
+  width: 100%;
+  position: relative;
+  height: 100%
+}
+
+.slide-upi {
+  display: none;
+  height: 110px;
+  position: absolute;
+  width: 100%
+}
+
+.msgB-upi {
+  height: 30px
+}
+
+.slideIcons-upi {
+  margin: 50px 0 20px
+}
+
+.MOBILE .slideIcons-upi {
+  margin: 35px 0 20px
+}
+
+.slideMsg-upi {
+  margin: 0 auto;
+  width: 80%
+}
+
+.slideIconsErr-upi {
+  margin: 40px 0 20px
+}
+
+.slideIconsErr-upi i {
+  font-size: 26px;
+  color: #f16158
+}
+
+.slideMsgTxt-upi {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  font-weight: 400;
+  line-height: 15px
+}
+
+.slideDots-upi {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 15px 0 10px
+}
+
+.mcpBox {
+  width: 100%;
+  background-color: #eaeaea;
+  margin: 18px 0;
+  display: none
+}
+
+.mcpA {
+  padding: 2px 20px;
+  width: 100%
+}
+
+.mcpB {
+  padding: 5px 0;
+  position: relative
+}
+
+.mcpBoxA {
+  width: 49%;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.mcpBoxAA {
+  vertical-align: middle
+}
+
+.mcpBoxAtxt {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.mcpBoxAtool {
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 3px
+}
+
+.mcpBoxB {
+  width: 49%;
+  padding: 2px 0;
+  display: inline-block;
+  height: 100%;
+  text-align: right
+}
+
+.mcpBoxB .radio-inline {
+  margin: 0 0 0 7%;
+  position: relative;
+  width: 36%
+}
+
+.mcpBdata .radio-inline {
+  margin: 0 1% 0 0;
+  position: relative;
+  width: 23%
+}
+
+.mcpIconBx {
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 400;
+  padding: 8px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 12px
+}
+
+.mcp {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+.mcpBox input[type=checkbox]:checked + span::before, .mcpBox input[type=radio]:checked + span::before {
+  background: #fff;
+  font-family: icpIcons;
+  color: #42a5f5 !important;
+  content: "\66" !important;
+  font-size: 13px;
+  left: -6px;
+  top: 8px
+}
+
+.mcpBox input[type=checkbox] + span::before, .mcpBox input[type=radio] + span::before {
+  background: none !important;
+  font-family: icpIcons;
+  color: #42a5f5 !important;
+  content: "" !important
+}
+
+.mcpBox input[type=radio]:checked + span span {
+  border: 1px solid #48b6f9
+}
+
+.mcpBdata {
+  padding: 0 20px
+}
+
+.mcpBdataTooltip {
+  display: inline;
+  padding: 0;
+  position: absolute;
+  right: 5px;
+  top: 12px
+}
+
+.mcpDrop {
+  outline: 0 !important;
+  position: relative;
+  width: 23%;
+  height: 37px;
+  background-size: 7px;
+  display: inline-block;
+  background-position-y: 47%;
+  vertical-align: middle;
+  background: url(../../assets/images/arrow-select.png) 95% 14px no-repeat #fff;
+  cursor: pointer;
+  margin-top: -1px;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #555;
+  font-size: 12px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  border: 1px solid #d8d8d8;
+  font-weight: 400;
+  text-indent: 7.01px
+}
+
+.mcpDrop:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000
+}
+
+@-moz-document url-prefix() {
+  .mcpDrop {
+    text-indent: .01px
+  }
+  .mcpDrop option {
+    text-indent: 12.01px
+  }
+}
+
+.mcpDropBox {
+  position: relative
+}
+
+.mcpDropBoxIcon span::before {
+  position: absolute;
+  background: 0;
+  font-family: icpIcons;
+  color: #42a5f5 !important;
+  content: "\66" !important;
+  font-size: 13px;
+  left: -6px;
+  top: -2px
+}
+
+.mcpDropBoxIcon select {
+  border: 1px solid #48b6f9;
+}
+
+.mcpBox .INR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20b9 \00a0 INR"
+}
+
+.mcpBox .USD::before {
+  font-family: Roboto, sans-serif;
+  content: "\0024 \00a0 USD"
+}
+
+.mcpBox .EUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20ac \00a0 EUR"
+}
+
+.mcpBox .JPY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a5 \00a0 JPY"
+}
+
+.mcpBox .GBP::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a3 \00a0 GBP"
+}
+
+.mcpBox .CHF::before {
+  font-family: Roboto, sans-serif;
+  content: "Fr \00a0 CHF"
+}
+
+.mcpBox .SEK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr \00a0 SEK"
+}
+
+.mcpBox .DDK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr \00a0 DDK"
+}
+
+.mcpBox .DKK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr \00a0 DKK"
+}
+
+.mcpBox .NOK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr \00a0 NOK"
+}
+
+.mcpBox .SGD::before {
+  font-family: Roboto, sans-serif;
+  content: "S\0024 \00a0 SGD"
+}
+
+.mcpBox .AUD::before {
+  font-family: Roboto, sans-serif;
+  content: "A\0024 \00a0 AUD"
+}
+
+.mcpBox .CAD::before {
+  font-family: Roboto, sans-serif;
+  content: "C\0024 \00a0 CAD"
+}
+
+.mcpBox .AED::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0625 \00a0 AED"
+}
+
+.mcpBox .HKD::before {
+  font-family: Roboto, sans-serif;
+  content: "HK\0024"
+}
+
+.mcpBox .QAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0642 \00a0 QAR"
+}
+
+.mcpBox .SAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0633 \00a0 SAR"
+}
+
+.mcpBox .OMR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0639.  OMR"
+}
+
+.mcpBox .ZAR::before {
+  font-family: Roboto, sans-serif;
+  content: "R \00a0 ZAR"
+}
+
+.mcpBox .MYR::before {
+  font-family: Roboto, sans-serif;
+  content: "RM \00a0 MYR"
+}
+
+.mcpBox .KWD::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0643 \00a0 KWD"
+}
+
+.mcpBox .MUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs  MUR"
+}
+
+.mcpBox .LKR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs \00a0 LKR"
+}
+
+.mcpBox .KES::before {
+  font-family: Roboto, sans-serif;
+  content: "KSh"
+}
+
+.mcpBox .PHP::before {
+  font-family: Roboto, sans-serif;
+  content: "\20B1 \00a0 PHP"
+}
+
+.mcpBox .NZD::before {
+  font-family: Roboto, sans-serif;
+  content: "NZ\0024 \00a0"
+}
+
+.mcpBox .THB::before {
+  font-family: Roboto, sans-serif;
+  content: "\0E3F \00a0 THB"
+}
+
+.mcpBox .BDT::before {
+  font-family: Roboto, sans-serif;
+  content: "\09F3 \00a0 BDT"
+}
+
+.mcpBox .CNY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00A5 \00a0 CNY"
+}
+
+.mcpBox .NPR::before {
+  font-family: Roboto, sans-serif;
+  content: "NPR"
+}
+
+.mcpBox .BHD::before {
+  font-family: Roboto, sans-serif;
+  content: ".\062F.\0628 \00a0 BHD"
+}
+
+.tipBoxCur.INR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20b9"
+}
+
+.tipBoxCur.USD::before {
+  font-family: Roboto, sans-serif;
+  content: "\0024"
+}
+
+.tipBoxCur.EUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\20ac"
+}
+
+.tipBoxCur.JPY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a5"
+}
+
+.tipBoxCur.GBP::before {
+  font-family: Roboto, sans-serif;
+  content: "\00a3"
+}
+
+.tipBoxCur.CHF::before {
+  font-family: Roboto, sans-serif;
+  content: "Fr"
+}
+
+.tipBoxCur.SEK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.tipBoxCur.DDK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.tipBoxCur.DKK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.tipBoxCur.NOK::before {
+  font-family: Roboto, sans-serif;
+  content: "Kr"
+}
+
+.tipBoxCur.SGD::before {
+  font-family: Roboto, sans-serif;
+  content: "S\0024"
+}
+
+.tipBoxCur.AUD::before {
+  font-family: Roboto, sans-serif;
+  content: "A\0024"
+}
+
+.tipBoxCur.CAD::before {
+  font-family: Roboto, sans-serif;
+  content: "C\0024"
+}
+
+.tipBoxCur.AED::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0625"
+}
+
+.tipBoxCur.HKD::before {
+  font-family: Roboto, sans-serif;
+  content: "HK\0024"
+}
+
+.tipBoxCur.QAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0642"
+}
+
+.tipBoxCur.SAR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0633"
+}
+
+.tipBoxCur.OMR::before {
+  font-family: Roboto, sans-serif;
+  content: "\0631.\0639."
+}
+
+.tipBoxCur.ZAR::before {
+  font-family: Roboto, sans-serif;
+  content: "R"
+}
+
+.tipBoxCur.MYR::before {
+  font-family: Roboto, sans-serif;
+  content: "RM"
+}
+
+.tipBoxCur.KWD::before {
+  font-family: Roboto, sans-serif;
+  content: "\062F.\0643"
+}
+
+.tipBoxCur.MUR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs"
+}
+
+.tipBoxCur.LKR::before {
+  font-family: Roboto, sans-serif;
+  content: "\024Cs"
+}
+
+.tipBoxCur.KES::before {
+  font-family: Roboto, sans-serif;
+  content: "KSh"
+}
+
+.tipBoxCur.PHP::before {
+  font-family: Roboto, sans-serif;
+  content: "\20B1"
+}
+
+.tipBoxCur.NZD::before {
+  font-family: Roboto, sans-serif;
+  content: "NZ\0024"
+}
+
+.tipBoxCur.THB::before {
+  font-family: Roboto, sans-serif;
+  content: "\0E3F"
+}
+
+.tipBoxCur.BDT::before {
+  font-family: Roboto, sans-serif;
+  content: "\09F3"
+}
+
+.tipBoxCur.CNY::before {
+  font-family: Roboto, sans-serif;
+  content: "\00A5"
+}
+
+.tipBoxCur.NPR::before {
+  font-family: Roboto, sans-serif;
+  content: "N\024Cs"
+}
+
+.tipBoxCur.BHD::before {
+  font-family: Roboto, sans-serif;
+  content: "BHD"
+}
+
+.tipBox {
+  position: absolute;
+  width: 280px;
+  top: -28px;
+  z-index: 2
+}
+
+.tipBox-0 {
+  left: -30px
+}
+
+.iPhone .tipBox-0 {
+  left: -70px
+}
+
+.tipBox-1 {
+  left: -60px
+}
+
+.iPhone .tipBox-1 {
+  left: -130px
+}
+
+.tipBox-2 {
+  left: -200px
+}
+
+.tipBox-3 {
+  left: -200px;
+  top: -38px
+}
+
+.tipBox-4 {
+  left: -120px
+}
+
+.iPhone .tipBox-4 {
+  left: -135px;
+  width: 265px
+}
+
+.inputErrBorder .errIcon, #lpCardTransaction .inputErrBorder .errIcon {
+  color: #f16158 !important
+}
+
+.keypadTop {
+  top: -85px !important
+}
+
+.LpkeypadTop {
+  top: -100px !important
+}
+
+.LPColor {
+  color: #e1214f !important
+}
+
+.wrapper {
+  -webkit-transition: top .7s ease;
+  -moz-transition: top .7s ease;
+  -o-transition: top .7s ease;
+  transition: top .7s ease
+}
+
+.mcpTooltip::before {
+  color: #bcbec0;
+  width: 300px;
+  right: auto;
+  margin-bottom: 4px;
+  margin-left: -90px;
+  bottom: 106%;
+  content: "1) For your convenience, we offer you the choice of paying in one of the major currencies available. \A \00a0 \A 2) The total amount will be converted based on the most competitive rates from our financial partners. \A \00a0 \A 3) This offer is valid only for the current transaction and may not be available for later transactions whether relating to the same or another purchase. \A \00a0 \A 4) Additional charges may be imposed by card issuing banks for all the international transactions. \A \00a0 \A 5) Refunds will be processed in the final currency selected by you during purchase.";
+  white-space: pre-wrap;
+  white-space: pre-line;
+  text-align: justify
+}
+
+.mcpTooltipAuto::before {
+  left: auto;
+  margin-right: 0;
+  margin-left: 0;
+  right: -4px
+}
+
+.iPhone .mcpTooltip::before {
+  margin-left: -123px
+}
+
+.mcpTooltip::after {
+  bottom: 100%;
+  right: 2px
+}
+
+.upiCanlFrm, .boltCanlFrm {
+  top: -26px;
+  left: -4px
+}
+
+.blocked {
+  cursor: not-allowed !important;
+  background: #f7f7f7 !important
+}
+
+#cardNumber:disabled, #cardExp:disabled, #cvvNumber:disabled, #cardHolderName:disabled, #emiCardNumber:disabled, #emiCardExp:disabled, #emiCvvNumber:disabled, #emiCardHolderName:disabled {
+  cursor: not-allowed
+}
+
+.lp_ico_box {
+  text-align: center;
+  position: relative
+}
+
+.lazypayLogo {
+  width: 88px;
+  margin-top: -3px
+}
+
+#lpHeaderMsg {
+  display: inline-block;
+  text-align: left
+}
+
+.otpScreenHeader {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  color: #808285;
+  font-weight: 500;
+  margin: 10px 0 5px 0
+}
+
+#lpAddList {
+  list-style-type: circle;
+  text-align: left;
+  margin-left: 18px
+}
+
+#lpAddList li {
+  list-style: circle;
+  color: #808285;
+  font-size: 12px;
+  font-weight: 400
+}
+
+#lp_otp_scr_int .otpScreenHeader {
+  font-size: 16px;
+  margin: 0 0 15px 0
+}
+
+#lp_otp_scr_int .lazypayLogo {
+  width: 89px;
+  margin-top: -2px
+}
+
+#lp_otp_scr_int #lpAddList li {
+  font-size: 13px
+}
+
+#lp_otp_scr {
+  display: none
+}
+
+.tb-lazypay {
+  margin-right: -3px;
+  height: 16px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/tabIcons.png);
+  background-position: -22px -72px;
+  background-size: 39px;
+  visibility: visible !important
+}
+
+.lp_succ_msg {
+  position: absolute;
+  top: 36px;
+  text-align: center;
+  width: 100%;
+  color: #e1224d;
+  font-size: 14px;
+  display: none
+}
+
+.lp_ico_box {
+  text-align: center;
+  position: relative
+}
+
+.lp_login_box {
+  padding: 15px 20px;
+  position: absolute;
+  width: 100%
+}
+
+.wallet_login_box {
+  padding: 10px 20px 15px;
+  position: absolute;
+  width: 100%
+}
+
+.lp_otp_box {
+  padding: 20px 20px 0;
+  position: absolute;
+  width: 100%
+}
+
+.lp_card_box {
+  padding: 20px 20px 0;
+  position: absolute;
+  width: 100%
+}
+
+.lp_login_box .input-group, .wallet_login_box .input-group {
+  border-radius: 4px
+}
+
+.lp_otp_box .input-group {
+  border-radius: 4px
+}
+
+.lazy-pay-now {
+  padding: 35px 0 0;
+  margin-top: 0
+}
+
+.lazy-pay-now-login {
+  padding: 25px 0 0
+}
+
+.lazy-pay-now-continue {
+  padding: 15px 0 0 !important
+}
+
+.lazy-pay-now-card {
+  padding: 15px 0 0;
+  clear: both
+}
+
+.resendBox, .wResendBox, .nitroResendBox {
+  text-align: center;
+  padding-top: 15px;
+  height: 33px;
+  position: relative
+}
+
+.nitroResendBox {
+  display: inline
+}
+
+.wResendBox, .nitroResendBox {
+  padding-top: 0
+}
+
+.ResendLink, .wResendLink, .nitroResendLink {
+  color: #42a5f5;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: -27px;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+.nitroResendLink {
+  right: 35px;
+  top: 30px;
+  position: absolute
+}
+
+.ResendLink:active, .wResendLink:active, .nitroResendLink:active {
+  font-size: 11px !important;
+  color: rgba(66, 165, 245, 0.79) !important
+}
+
+.ResendCount, .wResendCount {
+  position: absolute;
+  left: 0;
+  right: 0
+}
+
+.resendOtpLinkBlock {
+  cursor: wait;
+  opacity: .4
+}
+
+.lp_otp_msg {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0
+}
+
+.lp_otp_msg_bold span {
+  font-weight: 500;
+  font-size: 15px !important;
+  vertical-align: middle
+}
+
+.lp_otp_msg_box_top {
+  margin-top: 5px
+}
+
+.lp_otp {
+  margin-top: 20px
+}
+
+.lp_tnc {
+  text-align: center;
+  color: #9c9c9c;
+  font-size: 13px;
+  line-height: 17px;
+  margin-top: 15px
+}
+
+.lp_tnc a {
+  font-size: 13px
+}
+
+#lpOtp {
+  width: 65%
+}
+
+#lpOtpErr {
+  left: 2px
+}
+
+.error-hide + i.otpErrIcon {
+  display: none
+}
+
+#lpCardTransaction i.errIcon {
+  color: #bcbec0
+}
+
+#lpCardTransaction .que-icon {
+  top: 11px
+}
+
+.tabIcon, .tb-ic {
+  visibility: hidden
+}
+
+.nav-tabs .tabIcon-lazypay {
+  background-image: url(../../assets/images/tabIcons.png);
+  visibility: visible;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  background-position: 2px -67px;
+  left: -18px;
+  background-size: 37px;
+  top: 0
+}
+
+.nav-tabs .tabIcon-tez {
+  background-image: url(../../assets/images/tabIcons.png);
+  visibility: visible !important;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  background-position: 6px -68px;
+  left: -20px;
+  background-size: 30px;
+  top: -2px
+}
+
+.nav-tabs .tabIcon-cwallet {
+  visibility: visible;
+  background-image: url(../../assets/images/tabIcons.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  background-position: 1px 1px;
+  left: -18px;
+  background-size: 37px;
+  top: 0
+}
+
+.otherTbCss {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 2px;
+  cursor: pointer
+}
+
+.other .otherTbCss {
+  visibility: visible !important
+}
+
+.tb-cwallet {
+  visibility: visible;
+  background-image: url(../../assets/images/tabIcons.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  background-position: -22px 1px;
+  left: -15px;
+  left: -14.5px;
+  background-size: 37px;
+  top: 0
+}
+
+#list-cwallet span {
+  margin-left: 9px
+}
+
+.exm {
+  font-weight: 300;
+  color: #808285;
+  font-size: 13px;
+  padding: 0 0 20px;
+  text-indent: 0;
+  display: block
+}
+
+.exmUpiBox {
+  padding: 8px 0 20px 0
+}
+
+.exmUpi {
+  font-weight: 300;
+  color: #808285;
+  font-size: 13px;
+  padding: 0;
+  text-indent: 0;
+  display: block
+}
+
+.other label {
+  display: inline-block !important
+}
+
+.nav-tabs .active .tabIcon-lazypay {
+  background-position: -20px -67px
+}
+
+.nav-tabs .active .tabIcon-cwallet {
+  background-position: -22px 1px
+}
+
+.nav-tabs .active .tabIcon-tez {
+  background-position: -12px -68px
+}
+
+.lpCreditCardMsg {
+  clear: both;
+  text-align: center;
+  padding-bottom: 15px
+}
+
+.lpCreditCardMsg div {
+  font-weight: 400
+}
+
+.lpMobEmail i, .walletMobEmail i {
+  color: #bcbec0
+}
+
+.btnLoader {
+  background-image: url(../../assets/images/oval.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 98% !important;
+  background-position-y: 50% !important;
+  background-size: 8% !important
+}
+
+.lpBtnLoader {
+  background-repeat: no-repeat !important;
+  background-position-x: 98% !important;
+  background-position-y: 50% !important;
+  background-size: 8% !important
+}
+
+.loading-white {
+  width: 100%;
+  position: absolute;
+  border: 0;
+  content: "";
+  display: inline-block;
+  left: 0;
+  padding-top: 100px;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  border-radius: 3px;
+  height: 498px;
+  cursor: no-drop
+}
+
+.uh_oh {
+  display: none;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #f16158 !important;
+  font-weight: 400
+}
+
+.oh {
+  text-align: center;
+  display: none
+}
+
+.oh-icon {
+  color: #f16158;
+  padding: 20px 0 15px;
+  font-size: 30px
+}
+
+.oh-txt {
+  color: #808285;
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 15px
+}
+
+.oh-msg {
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #808285
+}
+
+.oh-makethis-txt {
+  color: #808285;
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 5px
+}
+
+.content-container {
+  padding: 15px 20px;
+  color: #808285
+}
+
+.paypalContent {
+  color: #808285;
+  text-align: start;
+  line-height: 15px;
+  padding: 10px 0
+}
+
+.paypalNoteText {
+  color: #808285;
+  text-align: start;
+  line-height: 15px;
+  padding: 0 0 10px
+}
+
+.img-verified {
+  width: 180px
+}
+
+.paypalHeaderText {
+  font-weight: bold;
+  margin-top: 9px
+}
+
+.paypal-button {
+  background-color: #ffc439;
+  border: 1px solid #dc911d;
+  color: #4a4a4a;
+  border-radius: 4px;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  padding: 7px 0;
+  opacity: 1;
+  width: 100%
+}
+
+.paypal-button .paypalbtn-icon {
+  background: url(../../assets/images/paypalbtn.png) no-repeat 0 0;
+  display: inline-block;
+  width: 73px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 12px
+}
+
+.button_container {
+  width: 100%;
+  clear: both;
+  padding-top: 15px;
+  overflow: auto
+}
+
+.dpMsgBox {
+  color: white;
+  border-radius: 0 0 4px 4px;
+  clear: both;
+  background-color: #42a5f5;
+  text-align: center;
+  margin: 0 15px;
+  font-size: 13px;
+  padding: 6px 0;
+  display: none
+}
+
+.dpMsgBox span {
+  display: inline-block;
+  line-height: 15px;
+  text-align: center;
+  margin: auto;
+  width: 90%
+}
+
+.sCharge {
+  display: none;
+  margin: auto;
+  text-align: right;
+  width: 100%;
+  color: #ababad;
+  font-weight: 400;
+  padding-top: 10px;
+  vertical-align: middle
+}
+
+.MOBILE .noBankToggle .sCharge {
+  margin-top: -30px !important;
+  display: block !important;
+  visibility: hidden !important
+}
+
+.sChargeSavedCard, .sChargeUpi, .sChargeTez {
+  visibility: hidden;
+  margin: auto;
+  margin-top: -25px;
+  text-align: right;
+  width: 100%;
+  color: #ababad;
+  font-weight: 400;
+  padding-top: 10px;
+  vertical-align: middle;
+  -webkit-transition: all .17s ease;
+  -moz-transition: all .17s ease;
+  -o-transition: all .17s ease;
+  transition: all .17s ease
+}
+
+.sCharge span, .sChargeSavedCard span, .sChargeUpi span, .sChargeTez span {
+  vertical-align: middle
+}
+
+.sCharge i, .sChargeSavedCard i, .sChargeUpi i, .sChargeTez i {
+  color: #ababad !important
+}
+
+.showSur {
+  margin-top: -25px !important;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.MOBILE #cards .showSur {
+  margin-top: 5px !important
+}
+
+.MOBILE #cards .saveCardT:visible + .MOBILE #cards .showSur {
+  margin-top: -25px !important
+}
+
+.mcpScaleInHeight #cards .showSur {
+  margin-top: 5px !important
+}
+
+.tabsCount-4 #emi .showSur {
+  margin-top: -10px !important;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.MOBILE #emi .showSur {
+  margin-top: -10px !important;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.readOn.showSur {
+  margin-top: -9px !important;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease
+}
+
+.showSur .sCharge {
+  display: block;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.MOBILE .showSur.noBankToggle .sCharge {
+  margin-top: 0 !important;
+  display: block !important;
+  visibility: visible !important
+}
+
+.showSur .sChargeSavedCard, .showSur .sChargeUpi, .showSur .sChargeTez {
+  visibility: visible;
+  margin-top: 0 !important;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.sChargeWallet {
+  padding: 10px 20px 0
+}
+
+.savedcard-pay-now, .upi-pay-now, .tez-pay-now {
+  margin-top: 0 !important
+}
+
+.linkBlocked {
+  color: rgba(66, 165, 245, 0.53) !important;
+  cursor: progress !important
+}
+
+.linkBlocked:hover, .linkBlocked:active {
+  color: rgba(66, 165, 245, 0.53) !important
+}
+
+.saved-nb-data:disabled + span {
+  opacity: .6;
+  cursor: not-allowed
+}
+
+.saved-nb-data:checked + span {
+  opacity: 1;
+  cursor: pointer
+}
+
+#netbankingBanks:disabled, #eWalletBanks:disabled, #emiBanks:disabled {
+  cursor: not-allowed !important;
+  background: #f7f7f7 !important
+}
+
+.insufficientErrBox {
+  text-align: center;
+  padding: 20px 0
+}
+
+.insufficientErr {
+  display: inline-block;
+  color: #f16158
+}
+
+.walletIcon {
+  vertical-align: middle;
+  width: 40px
+}
+
+.insufficientErrTxt {
+  font-size: 22px;
+  vertical-align: middle;
+  font-weight: 400
+}
+
+.yikes {
+  color: #414042;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 20px
+}
+
+.payUsing {
+  text-align: center;
+  color: #808285;
+  font-weight: 400
+}
+
+.payUsingStl {
+  color: #42a5f5;
+  cursor: pointer
+}
+
+.walletTnc {
+  text-align: center;
+  color: #808285;
+  font-weight: 400
+}
+
+.suff_box_no_save, .suff_box_no_save_zero, .suff_box_save {
+  background: #f7f7f7;
+  padding: 7px 0
+}
+
+.suff_box_no_save_zero {
+  cursor: not-allowed
+}
+
+.suff_box_save {
+  position: relative;
+  cursor: pointer
+}
+
+.suff_redio_save_icon_dis, .suff_redio_save_icon_unab {
+  display: inline-block;
+  margin-left: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+  color: #929497 !important;
+  padding-top: 2px;
+  margin-bottom: 0
+}
+
+.wallet-data {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  cursor: pointer;
+  opacity: 0 !important;
+  top: 0;
+  left: 0;
+  content: '' !important;
+  z-index: 1
+}
+
+.wallet-data .suff_redio_save_icon_dis:before, .wallet-data .suff_redio_save_icon_dis:after, .wallet-data .suff_redio_save_icon_unab:before, .wallet-data .suff_redio_save_icon_unab:after {
+  content: '' !important
+}
+
+.suff_redio_save_icon_unab {
+  color: #42a5f5 !important
+}
+
+.wallet-data ~ .suff_redio_save_icon_unab {
+  display: none !important
+}
+
+.wallet-data ~ .suff_redio_save_icon_dis {
+  display: inline-block !important
+}
+
+.wallet-data:checked ~ .suff_redio_save_icon_unab {
+  display: inline-block !important
+}
+
+.wallet-data:checked ~ .suff_redio_save_icon_dis {
+  display: none !important
+}
+
+.suff_bal_no_save {
+  color: #a5c339;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0
+}
+
+.suff_redio_no_save, .suff_redio_no_save_zero {
+  display: inline-block;
+  margin-left: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+  color: #42a5f5 !important;
+  padding-top: 2px
+}
+
+.suff_redio_no_save_zero {
+  color: #929497 !important
+}
+
+.suff_txt_no_save {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  font-weight: 400
+}
+
+.cwallet-pay-now {
+  padding-top: 30px !important
+}
+
+.cwallet-pay-now-tnc {
+  margin-top: 15px
+}
+
+.wallet-pay-now {
+  padding: 25px 0 0;
+  margin-top: 0
+}
+
+.wallet_pay_using_txt {
+  position: relative;
+  width: 80%;
+  margin: 13px 0 13px 20px;
+  height: 20px;
+  overflow: hidden
+}
+
+.wallet_pay_using_txt_insuff {
+  position: relative;
+  width: 80%;
+  margin: 12px 0 12px 20px;
+  height: 20px;
+  overflow: hidden
+}
+
+.wallet_pay_using_txt_disa {
+  color: #939598;
+  font-weight: 400;
+  position: absolute;
+  height: 18.5px;
+  visibility: visible;
+  overflow: hidden;
+  top: 0;
+  visibility: visible
+}
+
+.wallet_pay_using_txt_dis {
+  color: #939598;
+  font-weight: 400
+}
+
+.wallet_pay_using_txt_un {
+  color: #42a5f5;
+  font-weight: 300;
+  cursor: pointer
+}
+
+.wallet_pay_using_txt_dis, .wallet_pay_using_txt_un {
+  position: absolute;
+  height: 18.5px;
+  visibility: visible;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.wallet_pay_using_txt.disable .wallet_pay_using_txt_dis {
+  top: 0;
+  visibility: visible
+}
+
+.wallet_pay_using_txt.disable .wallet_pay_using_txt_un {
+  top: -35px;
+  visibility: hidden
+}
+
+.wallet_pay_using_txt.unable .wallet_pay_using_txt_dis {
+  top: 35px;
+  visibility: hidden
+}
+
+.wallet_pay_using_txt.unable .wallet_pay_using_txt_un {
+  top: 0;
+  visibility: visible
+}
+
+.wallet-savedcard-pay-now, .wallet-otp-pay-now, .nitro-otp-pay-now {
+  margin-top: 10px !important
+}
+
+.wallet-otp-pay-now, .nitro-otp-pay-now {
+  margin-bottom: 20px
+}
+
+.payUsingBtnToggle .wallet-Suff-savedcard-pay-now {
+  padding-top: 15px
+}
+
+.split_wallet_amt {
+  font-weight: 400;
+  font-size: 13px;
+  display: inline-block;
+  position: absolute;
+  right: 88px;
+  width: 65px
+}
+
+.loading_wallet_close_box, .nitro_loading_wallet_close_box {
+  text-align: right
+}
+
+.loading_wallet_close_icon, .nitro_loading_wallet_close_icon {
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer
+}
+
+.loading_wallet_msg_box, .nitro-loading_wallet_msg_box {
+  text-align: center
+}
+
+.loading_wallet_msg_box, .nitro-loading_wallet_msg_box span {
+  vertical-align: middle;
+  display: inline-block
+}
+
+.loading_wallet_msg_box, .nitro-loading_wallet_msg_box .mbIcon {
+  padding-top: 2px
+}
+
+.wallet_otp, .nitro-wallet-otp {
+  padding: 20px 20px
+}
+
+.nitro-wallet-otp {
+  position: relative
+}
+
+.wallet_input_left {
+  border-radius: 4px;
+  text-align: left
+}
+
+.wallet_processing_loader_box {
+  height: 100px
+}
+
+.wallet_processing_loader {
+  display: inline-block;
+  -ms-transform: scale(.3);
+  -webkit-transform: scale(.3);
+  transform: scale(.3);
+  width: 150px;
+  height: 150px;
+  background: url(../../assets/images/puff_orange.svg) no-repeat;
+  background-size: 100%
+}
+
+.wallet_processing_txt {
+  text-align: center;
+  padding: 25px 0
+}
+
+.wallet_processing_txt {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 16px
+}
+
+.wallet_processing_txt_proc {
+  color: #a5c339;
+  font-weight: 400
+}
+
+.wallet_processing_txt_plea {
+  color: #675f58;
+  font-weight: 400
+}
+
+.wallet_OTP_box, .wallet_processing_box {
+  display: none
+}
+
+.blockCancel {
+  cursor: not-allowed !important;
+  opacity: .3
+}
+
+#walletError label {
+  width: 100%
+}
+
+#walletError span {
+  margin: -2px 0 0 !important;
+  vertical-align: top;
+  width: 80%
+}
+
+#walletError i {
+  margin-right: 10px
+}
+
+.walletLinkBlocked {
+  opacity: .5
+}
+
+.walletLinkBlocked input {
+  cursor: progress !important
+}
+
+.walletLoginIcon {
+  text-align: center
+}
+
+.cwalletIcon {
+  width: 35%;
+  margin: 15px 0
+}
+
+.doYouHave {
+  color: #6b6663;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px 0
+}
+
+.mastercard #notSupported {
+  width: 205px !important;
+  left: -158px !important
+}
+
+.mastercard #notSupported .icp-error-tooltip-i {
+  left: 171px !important
+}
+
+.MOBILE .noBankToggle {
+  margin-top: -5px !important
+}
+
+.tb-tez {
+  margin-right: -3px;
+  height: 16px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/tabIcons.png);
+  background-position: -22px -90px;
+  background-size: 38px;
+  visibility: visible !important
+}
+
+.tezInputContainer {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.buttonFullBoxStyle {
+  padding: 0 !important
+}
+
+#tezVpa {
+  width: 80% !important
+}
+
+.tezIp {
+  width: 60%;
+  text-align: left
+}
+
+.tezAt {
+  width: 7%;
+  text-align: center
+}
+
+.tezDD {
+  width: 31%;
+  text-align: right
+}
+
+.tezInputContainerBox {
+  margin-bottom: 20px;
+  vertical-align: middle
+}
+
+.tezInfoBox {
+  margin-top: 15px;
+  background: #f7f7f7;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 11px
+}
+
+.tezWebSite {
+  cursor: pointer;
+  font-size: 11px
+}
+
+#tezDropDown {
+  margin-top: -3px;
+  padding: 10px 12px;
+  font-size: 13px;
+  height: 36px
+}
+
+.tezLogoDiv {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+ul.autocompleteOutput {
+  padding: 0;
+  width: 100.7%;
+  max-height: 160px;
+  overflow: hidden;
+  font-size: 14px;
+  float: none;
+  margin: 1px 0;
+  position: absolute;
+  background: #f9f9f9;
+  z-index: 3;
+  margin-left: -0.25%;
+  border-radius: 4px
+}
+
+ul.autocompleteOutput li {
+  list-style: none;
+  text-align: left;
+  padding: 10px;
+  background: #fff;
+  border-left: 1px solid #ebe9ea;
+  border-right: 1px solid #ebe9ea;
+  border-bottom: 1px solid #f3f2f2;
+  word-wrap: break-word;
+  cursor: pointer
+}
+
+ul.autocompleteOutput li:hover, ul.autocompleteOutput li.selected {
+  background-color: #f2f0f1;
+  background-color: #f5f5f5
+}
+
+ul.autocompleteOutput li:first-child {
+  border-radius: 4px 4px 0 0
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  body:not(.no-responsive) .secure-payment, body:not(.no-responsive) .steps {
+    text-align: center
+  }
+
+  body:not(.no-responsive) .mcpBoxAtool {
+    margin-left: 12px
+  }
+
+  body:not(.no-responsive) .outer-container, body:not(.no-responsive) body {
+    margin-bottom: 0;
+    padding-top: 0;
+    position: static
+  }
+
+  body:not(.no-responsive) .footer, body:not(.no-responsive) .loading-text, body:not(.no-responsive) .loading-text-upi, body:not(.no-responsive) .loading-text-wallet, body:not(.no-responsive) nitro-loading-text-wallet {
+    bottom: 0;
+    position: fixed;
+    border-radius: 0
+  }
+
+  body:not(.no-responsive) .subinfo {
+    color: #808285;
+    margin-bottom: 40px;
+    position: relative
+  }
+
+  body:not(.no-responsive) .main-container {
+    width: auto
+  }
+
+  body:not(.no-responsive) .navbar-brand {
+    height: 60px;
+    top: 5px;
+    width: 60px
+  }
+
+  body:not(.no-responsive) .navbar-default {
+    border-radius: 0;
+    height: 90px;
+    padding: 10px 0
+  }
+
+  body:not(.no-responsive) .payment-info {
+    left: 77px;
+    top: 28px
+  }
+
+  body:not(.no-responsive) .container-payment-gateway .user-info span.log-out, body:not(.no-responsive) .container-payment-gateway .user-info span.not-youP, body:not(.no-responsive) .container-payment-gateway .user-info span.user-email, body:not(.no-responsive) .container-payment-gateway .user-info span.user-mobile {
+    margin: 0 4px
+  }
+
+  body:not(.no-responsive) .Opened .payment-gateway-options {
+    overflow: auto
+  }
+
+  body:not(.no-responsive) .card-validate input[type=password] {
+    width: 66%
+  }
+
+  body:not(.no-responsive) [data-tooltip] {
+    left: -10px
+  }
+
+  body:not(.no-responsive) .dpScharge[data-tooltip]::before, body:not(.no-responsive) .conveFee[data-tooltip]::before {
+    padding: 7px 0;
+    right: -8px;
+    max-width: 305px;
+    min-width: 305px
+  }
+
+  body:not(.no-responsive) .dpScharge[data-tooltip], body:not(.no-responsive) .conveFee[data-tooltip] {
+    left: 0
+  }
+
+  body:not(.no-responsive) .pay-options label {
+    padding: 0 4px
+  }
+
+  body:not(.no-responsive) .footer {
+    left: 0;
+    opacity: .9;
+    z-index: 5
+  }
+
+  body:not(.no-responsive) .card-details {
+    margin-top: 0
+  }
+
+  body:not(.no-responsive) .form-control {
+    width: 70%
+  }
+
+  body:not(.no-responsive) .col-md-8, body:not(.no-responsive) .focuson.border-right-zero, body:not(.no-responsive) .overlay-div, body:not(.no-responsive) .wrapper {
+    width: 100%
+  }
+
+  body:not(.no-responsive) .note-error {
+    margin: -15px auto 2px
+  }
+
+  body:not(.no-responsive) .loading-text {
+    width: 100%;
+    z-index: 999
+  }
+
+  body:not(.no-responsive) .secure-payment, body:not(.no-responsive) .viewport .overview, body:not(.no-responsive) .wrapper {
+    position: relative
+  }
+
+  body:not(.no-responsive) .wrap {
+    margin: 10px 0
+  }
+
+  body:not(.no-responsive) .overlay {
+    height: 130px
+  }
+
+  body:not(.no-responsive) .netbanking-body .form-netbanking {
+    text-align: center;
+    padding: 16px 15px 0
+  }
+
+  body:not(.no-responsive) .secure-payment {
+    color: #56a769;
+    display: none;
+    padding: 10px 0;
+    right: 0;
+    top: 0
+  }
+
+  body:not(.no-responsive) .tab-pane.active {
+    min-height: 192px
+  }
+
+  body:not(.no-responsive) .input-group {
+    margin: 0 auto
+  }
+
+  body:not(.no-responsive) .tab-container {
+    height: calc(100vh - 275px);
+    min-height: 10px !important
+  }
+
+  body:not(.no-responsive) .viewport {
+    height: auto !important;
+    overflow: initial !important
+  }
+
+  body:not(.no-responsive) .scrollbar-content .scrollbar {
+    display: none;
+    height: 0 !important
+  }
+
+  body:not(.no-responsive) .pay-now {
+    clear: both;
+    padding: 6px 15px
+  }
+
+  body:not(.no-responsive) .MOBILE .pay-now {
+    padding: 20px 15px
+  }
+
+  body:not(.no-responsive) .MOBILE .lazy-pay-now, body:not(.no-responsive) .MOBILE .wallet-pay-now {
+    padding: 20px 0
+  }
+
+  body:not(.no-responsive) .iPhone .MOBILE .pay-now {
+    padding: 10px 15px 20px
+  }
+
+  body:not(.no-responsive) .payment-gateway-tabs .nav-tabs li a:hover {
+    background: 0
+  }
+
+  body:not(.no-responsive) .read-only-fields.active {
+    height: auto !important
+  }
+
+  body:not(.no-responsive) .read-only-fields .tab-container {
+    height: calc(100vh - 285px);
+    min-height: 10px !important;
+    overflow-y: auto
+  }
+
+  body:not(.no-responsive) .otp-screen .tab-container {
+    height: calc(100vh - 356px);
+    overflow-y: hidden
+  }
+
+  body:not(.no-responsive) .openedDiv .footer {
+    position: relative !important
+  }
+
+  body:not(.no-responsive) .payment-sucess, body:not(.no-responsive) .start-otp-screen-one {
+    height: calc(100vh - 180px)
+  }
+
+  body:not(.no-responsive) .payment-sucess {
+    bottom: auto
+  }
+
+  body:not(.no-responsive) .backend-refresh-error {
+    border-radius: 0;
+    height: 100vh;
+    overflow: hidden
+  }
+
+  body:not(.no-responsive) .container-payment-gateway .user-info span.user-email {
+    max-width: 49%
+  }
+
+  body:not(.no-responsive) .tezDD {
+    width: 29%
+  }
+}
+
+@media only screen and (width: 320px) {
+  body:not(.no-responsive) .netbanking-body .radio-inline {
+    margin: 0 10px 0 0;
+    position: relative;
+    width: 30.3%
+  }
+}
+
+@media only screen and (height: 480px) {
+  body:not(.no-responsive) .tab-container {
+    height: calc(100vh - 266px)
+  }
+}
+
+@media only screen and (min-width: 0) and (max-width: 480px) {
+  body:not(.no-responsive) .cancel-popup-box {
+    padding: 15px 13px !important
+  }
+
+  body:not(.no-responsive) .wrapper-cancel-popup {
+    width: 96% !important
+  }
+
+  body:not(.no-responsive) .header-title {
+    margin-bottom: 5px !important
+  }
+
+  body:not(.no-responsive) .bolt-form-option-box {
+    padding: 10px 0 15px 0 !important
+  }
+}
+
+span._HSBC:after {
+  content: "HSBC"
+}
+
+span._HSBC {
+  background-position: -10px -1448px !important
+}
+
+._AMEX {
+  background: url(../../assets/images/cardsIconSprite.png) no-repeat 6px -140px !important;
+  background-size: 28px !important
+}
+
+._AMEX:after {
+  content: "AMEX"
+}
+
+span._INDUS:after {
+  content: "INDUS"
+}
+
+span._INDUS {
+  background-position: -8px -938px !important
+}
+
+.CID001, ._ICIB, ._ICICI, ._ICICIP {
+  background-position: -7px -751px !important;
+  background-size: 60px !important
+}
+
+.CID001:after, ._ICIB:after, ._ICICI:after {
+  content: "ICICI"
+}
+
+._ICICIP:after {
+  content: "ICICIP"
+}
+
+.CID002, ._AXIB, ._AXIS {
+  background-position: -9px -104px !important;
+  background-size: 60px !important
+}
+
+.CID002::after, ._AXIB::after, ._AXIS::after {
+  content: "AXIS"
+}
+
+.CID003, ._CITINB, ._CITNB {
+  background-position: -1px -324px !important
+}
+
+._CITI {
+  background-position: -10px -430px !important
+}
+
+.CID003:after, ._CITINB::after, ._CITNB::after, ._CITI::after {
+  content: "CITI"
+}
+
+.CID004, ._YESB {
+  background-position: -3px -1034px !important
+}
+
+.CID004:after, ._YESB:after {
+  content: "YES"
+}
+
+.CID005, ._SBIB, ._SBI {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID005:after, ._SBIB:after, ._SBI:after {
+  content: "SBI"
+}
+
+._RBL {
+  background-position: -10px -1493px !important;
+  background-size: 60px !important
+}
+
+._RBL:after {
+  content: "RBL"
+}
+
+._YES {
+  background-position: -10px -1354px !important;
+  background-size: 60px !important
+}
+
+._YES:after {
+  content: "YES"
+}
+
+.CID006, ._DSHB {
+  background-position: 4px -323px !important;
+  background-size: 35px !important;
+  font-size: 11px
+}
+
+.CID006:after, ._DSHB::after {
+  content: "Deutsche"
+}
+
+.CID007, ._UBIB {
+  background-position: -3px -928px !important
+}
+
+.CID007:after, ._UBIB::after {
+  content: "Union"
+}
+
+.CID008, ._INDB {
+  background-position: -3px -643px !important
+}
+
+.CID008:after, ._INDB::after {
+  content: "Indian"
+}
+
+.CID009, ._FEDB {
+  background-position: -1px -501px !important
+}
+
+.CID009:after, ._FEDB::after {
+  content: "Federal"
+}
+
+.CID010, ._HDFB, ._HDFC {
+  background-position: -3px -645px !important;
+  background-size: 55px !important
+}
+
+.CID010:after, ._HDFB::after, ._HDFC::after {
+  content: "HDFC"
+}
+
+.CID011, ._IDBB {
+  background-position: -5px -730px !important;
+  background-size: 55px !important
+}
+
+.CID011:after, ._IDBB::after {
+  content: "IDBI"
+}
+
+.CID012, ._SBHB {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID012:after, ._SBHB::after {
+  content: "SBH"
+}
+
+.CID013, ._SBBJB {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID013:after, ._SBBJB::after {
+  content: "SBBJ"
+}
+
+.CID014, ._SBBJB {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID014:after, ._SBBJB:after {
+  content: "SBBJ"
+}
+
+.CID015, ._SBTB {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID015:after, ._SBTB::after {
+  content: "SBT"
+}
+
+.CID016, ._ADBB {
+  background-position: -3px -38px !important
+}
+
+.CID016:after, ._ADBB::after {
+  content: "Andhra"
+}
+
+.CID017, ._BBKB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID017:after, ._BBKB::after {
+  content: "BBK"
+}
+
+.CID018, ._BBRB {
+  background-position: -6px -130px !important;
+  background-size: 53px !important
+}
+
+.CID018:after, ._BBRB::after {
+  content: "BOB"
+}
+
+.CID019, ._BOIB {
+  background-position: -2px -139px !important;
+  background-size: 44px !important
+}
+
+.CID019:after, ._BOIB::after {
+  content: "BOI"
+}
+
+.CID020 {
+  background-position: -6px -8px !important;
+  background-size: 53px !important
+}
+
+.CID020:after {
+  content: "BOB"
+}
+
+.CID021, ._BOMB {
+  background-position: -1px -182px !important
+}
+
+.CID021:after, ._BOMB::after {
+  content: "BOM"
+}
+
+.CID023, ._CBIB {
+  background-position: -2px -275px !important;
+  background-size: 44px !important
+}
+
+.CID023:after, ._CBIB::after {
+  content: "CBI"
+}
+
+.CID024, ._CUBB {
+  background-position: -4px -475px !important;
+  background-size: 55px !important
+}
+
+.CID024:after, ._CUBB::after {
+  content: "CUB"
+}
+
+.CID025 {
+  background-position: -3px -359px !important
+}
+
+.CID025:after {
+  content: "CB"
+}
+
+.CID026, ._DCBB {
+  background-position: -8px -581px !important;
+  background-size: 57px !important
+}
+
+.CID026:after, ._DCBB::after {
+  content: "DCB"
+}
+
+.CID027, ._INOB {
+  background-position: -8px -845px !important;
+  background-size: 57px !important
+}
+
+.CID027:after, ._INOB:after {
+  content: "IOB"
+}
+
+.CID028, ._INIB {
+  background-position: -7px -858px !important;
+  background-size: 55px !important
+}
+
+.CID028:after._INIB::after {
+  content: "IB"
+}
+
+.CID029, ._INGB {
+  background-position: -9px -984px !important;
+  background-size: 60px !important
+}
+
+.CID029:after, ._INGB::after {
+  content: "ING"
+}
+
+.CID030, ._JAKB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID030:after, ._JAKB::after {
+  content: "J&K"
+}
+
+.CID031, ._KRKB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important;
+  font-size: 11px
+}
+
+.CID031:after, ._KRKB::after {
+  content: "Karnataka"
+}
+
+.CID032, ._KRVB {
+  background-position: -2px -784px !important;
+  background-size: 44px !important
+}
+
+.CID032:after, ._KRVB:after {
+  content: "KVB"
+}
+
+.CID033, ._162B, ._KOTAK {
+  background-position: -3px -926px !important;
+  background-size: 54px !important
+}
+
+.CID033:after, ._162B::after, ._KOTAK::after {
+  content: "KOTAK"
+}
+
+.CID034, ._LVBD {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID034:after, ._LVBD::after {
+  content: "LVB"
+}
+
+.CID035, ._OBCB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important;
+  font-size: 12px
+}
+
+.CID035:after, ._OBCB::after {
+  content: "Oriental"
+}
+
+.CID036, ._PNBB {
+  background-position: -8px -1008px !important;
+  background-size: 54px !important
+}
+
+.CID036:after, ._PNBB:after {
+  content: "PNB"
+}
+
+.CID037, ._SOIB {
+  background-position: -3px -892px !important
+}
+
+.CID037:after, ._SOIB::after {
+  content: "SIB"
+}
+
+.CID038 {
+  background-position: -10px -1541px !important;
+  background-size: 60px !important
+}
+
+.CID038:after {
+  content: "SCB"
+}
+
+.CID039 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important;
+  font-size: 11px
+}
+
+.CID039:after {
+  content: "Syndicate"
+}
+
+.CID040 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID040:after {
+  content: "TMB"
+}
+
+.CID041, ._UNIB {
+  background-position: -10px -1261px !important;
+  background-size: 60px !important
+}
+
+.CID041:after._UNIB::after {
+  content: "UBI"
+}
+
+.CID042, ._VJYB {
+  background-position: -3px -999px !important
+}
+
+.CID042:after, ._VJYB::after {
+  content: "Vijaya"
+}
+
+.CID043, ._SBPB {
+  background-position: -10px -1586px !important;
+  background-size: 60px !important
+}
+
+.CID043:after, ._SBPB::after {
+  content: "SBP"
+}
+
+.CID044 {
+  background-position: -9px -1008px !important;
+  background-size: 54px !important
+}
+
+.CID044:after {
+  content: "PNB"
+}
+
+.CID045, ._CSBN {
+  background-position: -5px -252px !important;
+  background-size: 46px !important;
+  font-size: 11px
+}
+
+.CID045:after, ._CSBN::after {
+  content: "Catholic"
+}
+
+.CID046 {
+  background-position: -6px -8px !important;
+  background-size: 53px !important
+}
+
+.CID046:after {
+  content: "BOB"
+}
+
+.CID047 {
+  background-position: -7px -984px !important;
+  background-size: 60px !important
+}
+
+.CID047:after {
+  content: "ING"
+}
+
+.CID050 {
+  background-position: -7px -104px !important;
+  background-size: 60px !important
+}
+
+.CID050:after {
+  content: "ICICI"
+}
+
+.CID051, ._CABB {
+  background-position: -12px -288px !important;
+  background-size: 60px !important
+}
+
+.CID051:after, ._CABB::after {
+  content: "Canara"
+}
+
+.CID052, ._ALLB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important;
+  font-size: 11px
+}
+
+.CID052:after, ._ALLB::after {
+  content: "Allahabad"
+}
+
+.CID053 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID053:after {
+  content: "Cosmos"
+}
+
+.CID054 {
+  background-position: -5px -1008px !important;
+  background-size: 54px !important
+}
+
+.CID054:after {
+  content: "PNB"
+}
+
+.CID055 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID055:after {
+  content: "DCB"
+}
+
+.CID056 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID056:after {
+  content: "Dena"
+}
+
+.CID057, ._DLSB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important;
+  font-size: 10px
+}
+
+.CID057:after, ._DLSB::after {
+  content: "Dhanlaxmi"
+}
+
+.CID058 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID058:after {
+  content: "JSB"
+}
+
+.CID059, ._LVCB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID059:after, ._LVCB::after {
+  content: "Laxmi(c)"
+}
+
+.CID060, ._LVRB {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID060:after, ._LVRB:after {
+  content: "Laxmi(r)"
+}
+
+.CID061 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID061:after {
+  content: "PMC"
+}
+
+.CID062 {
+  background-position: -7px -8px !important;
+  background-size: 54px !important
+}
+
+.CID062:after {
+  content: "PMC"
+}
+
+.vpaWidth {
+  width: 85%
+}
+
+.wrapper-cancel-popup {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 60000;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.cancel-popup-box {
+  background: white;
+  padding: 20px 15px;
+  border-radius: 4px;
+  text-align: center
+}
+
+.cancel-popup-box-no-form {
+  width: 90%
+}
+
+#cancel-popup p {
+  margin: 0;
+  margin-bottom: 15px
+}
+
+#cancel-popup .cancel-popup-box-no-form p {
+  margin-bottom: 20px !important
+}
+
+.header-title {
+  font-size: 14.7px;
+  font-weight: 400
+}
+
+#cancel-popup p button {
+  width: 37%;
+  margin: 0 10px;
+  color: white
+}
+
+#cancel-popup p .btn-grey {
+  background: #a7a9ac
+}
+
+.tab-container.pay-via-amazon, .tab-container.pay-via-paytm {
+  padding-top: 30px;
+  text-align: center;
+  width: 93%
+}
+
+.tab-container.pay-via-amazon .rect, .tab-container.pay-via-paytm .rect {
+  width: 100%;
+  height: 128px;
+  border: solid 1px #68d5f6;
+  text-align: center
+}
+
+.tab-container.pay-via-amazon .rect {
+  border: solid 1px #f7974382
+}
+
+.tab-container.pay-via-paytm .rect .logo-ct {
+  width: 100px;
+  height: 82px;
+  padding-top: 25px;
+  margin: auto
+}
+
+.tab-container.pay-via-amazon .rect .logo-ct {
+  width: 143px;
+  height: 85px;
+  padding-top: 18px;
+  margin: auto
+}
+
+.tab-container.pay-via-paytm .rect .paytm-logo {
+  background: url(../../assets/images/externalWallets_Sprite.png) no-repeat -50px -445px;
+  background-size: 200px;
+  height: 45px
+}
+
+.tab-container.pay-via-amazon .rect .amazonpay-logo {
+  background: url(../../assets/images/externalWallets_Sprite.png) no-repeat -27px -1449px;
+  background-size: 200px;
+  height: 48px
+}
+
+.pay-via-amazon.pay-via-amazon .rect button, .tab-container.pay-via-paytm .rect button {
+  width: 279px;
+  height: 36px;
+  object-fit: contain;
+  color: white;
+  border-radius: 4px;
+  background-color: #00bbf1
+}
+
+.pay-via-amazon.pay-via-amazon .rect button {
+  background: #f79725
+}
+
+.payment-gateway-tabs .nav-tabs li a.amazonpay-tab, .payment-gateway-tabs .nav-tabs li a.paytm-tab {
+  background: url(../../assets/images/externalWallets_Sprite.png) no-repeat 50% -180px;
+  background-size: 85px;
+  height: 40px;
+  width: 50%;
+  margin: 0 auto
+}
+
+#list-paytm div.paytm-tab {
+  background: url(../../assets/images/externalWallets_Sprite.png) no-repeat 50% -180px;
+  background-size: 85px
+}

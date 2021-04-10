@@ -1,0 +1,254 @@
+@import '@/scss/mixin';
+@import '~antd/dist/antd.css';
+//@import "main.css";
+//@import "bolt_3_8.min.css";
+
+.p-pay {
+  padding: 0 px(10) px(10);
+
+  .order-amount {
+    background: #fff;
+    border-radius: px(6);
+    padding: px(5);
+    margin: px(15) 0 px(10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .txt {
+      font-size: px(18);
+      line-height: px(25);
+      color: #333;
+    }
+
+    .num {
+      font-size: px(35);
+      font-weight: bold;
+      line-height: px(40);
+      color: #434343;
+    }
+  }
+
+  .pay-infomation {
+    background: #fff;
+    border-radius: px(6);
+    padding: px(10);
+    margin: px(10) 0;
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .left,
+    .right {
+      display: flex;
+      align-items: center;
+    }
+
+    .form {
+      position: relative;
+      height: 0;
+      transition: all 0.3s ease;
+      opacity: 0;
+      z-index: -1;
+
+      &.show {
+        opacity: 1;
+        height: px(220);
+        z-index: 1;
+        margin: px(10) 0;
+        padding-top: px(10);
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          height: 1px;
+          background: rgba(0, 0, 0, 0.26);
+          width: calc(100% + 0.5rem);
+          left: px(-5);
+        }
+      }
+
+      .form-block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: px(16);
+
+        label {
+          height: px(24);
+          line-height: px(32);
+          font-size: px(12);
+          color: rgba(0, 0, 0, 0.26);
+          margin-bottom: px(4);
+        }
+
+        input {
+          font-size: px(16);
+          color: #495057;
+          padding: px(7) 0;
+          border: none;
+          border-radius: 0;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+
+          &:focus {
+            border-bottom-color: #4caf50;
+          }
+
+          &.error-line {
+            border-bottom-color: #e63a4d;
+          }
+        }
+
+        .error {
+          position: absolute;
+          bottom: px(-20);
+          color: #e63a4d;
+          font-size: px(12);
+        }
+      }
+    }
+
+    svg {
+      transition: transform 0.3s ease;
+      &.rotate {
+        transform: rotate(180deg);
+      }
+    }
+
+    img {
+      width: px(20);
+      height: px(22);
+      margin-right: px(8);
+    }
+
+    span {
+      font-size: px(16);
+      color: #434343;
+    }
+  }
+
+  .paywaywrap {
+    background: #fff;
+    border-radius: px(6);
+    padding: px(5);
+    margin: px(10) 0;
+
+    .line {
+      padding: px(5);
+      display: flex;
+      align-items: center;
+      // justify-content: space-between;
+
+      img {
+        width: px(26);
+        height: px(22);
+        margin-right: px(8);
+      }
+
+      span {
+        font-size: px(16);
+        color: #434343;
+
+      }
+    }
+
+    .paywaylabel {
+      border-radius: px(10);
+      padding: px(10) px(16) px(10) px(5);
+      margin-top: 5px;
+      justify-content: space-between;
+      border: 1px solid #9c9c9c;
+    }
+
+    .payway {
+      border-radius: px(10);
+      padding: px(10) px(16) px(10) px(5);
+      margin-top: 5px;
+      justify-content: space-between;
+      //border-top: 1px rgba(0, 0, 0, 0.26) solid;
+      .left {
+        display: none;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        width: px(75);
+        height: px(24);
+        margin-right: px(0);
+        margin-left: px(8);
+
+      }
+
+      span {
+        font-size: px(14);
+        font-weight: 300;
+        color: #434343;
+      }
+
+
+    }
+  }
+  .paywaylabel-clicked {
+    border-radius: px(10);
+    padding: px(10) px(16) px(10) px(5);
+    margin-top: 5px;
+    justify-content: space-between;
+    border:2px solid dodgerblue;
+  }
+  .btn {
+    position: relative;
+    display: inline-block;
+    border-radius: px(10);
+    padding: px(8) px(16);
+    color: #fff;
+    background-color: #4e6cf1;
+    border-color: #4e6cf1;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%),
+      0 3px 1px -2px rgb(0 0 0 / 20%),
+      0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin: 0 auto px(5);
+    font-size: px(14);
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+      background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+      color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: box-shadow,
+      transform;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    user-select: none;
+    text-transform: uppercase;
+    line-height: px(18);
+
+    &.disable {
+      background-color: rgba(0, 150, 136, .6);
+      border-color: #4e6cf1;
+    }
+
+    &:active {
+      box-shadow: none;
+      border-color: #001714;
+    }
+  }
+
+  .desc {
+    margin-top: px(10);
+
+    p {
+      font-size: px(12);
+      margin-top: 0;
+      margin-bottom: px(16);
+      color: #434343;
+      line-height: 1.5;
+    }
+  }
+}

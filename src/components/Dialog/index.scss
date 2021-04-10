@@ -1,0 +1,72 @@
+@import '@/scss/mixin';
+
+.u-dialog {
+  .u-dialog-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: alpha(opacity=70);
+    z-index: 1000;
+  }
+
+  .u-dialog-wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    outline: 0;
+    z-index: 1001;
+    transform: translate(-50%, -50%);
+  }
+
+  .u-dialog-body {
+    width: px(320);
+    position: relative;
+    background: #fff;
+    border-radius: px(16);
+  }
+
+  .u-dialog-title {
+    text-align: center;
+    height: px(55);
+    line-height: px(55);
+    font-size: px(17);
+    font-weight: 600;
+    max-width: 90%;
+    margin: 0 auto;
+    color: #333;
+    @extend %textpoint;
+  }
+
+  .has-title {
+    padding-top: 0 !important;
+  }
+
+  .u-dialog-content {
+    font-size: px(15);
+    padding: px(25) px(12) px(17);
+    text-align: center;
+  }
+
+  .u-dialog-btns {
+    height: px(48);
+    line-height: px(48);
+    font-size: px(16);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebedf0;
+  }
+
+  .u-dialog-btn {
+    flex: 1;
+    text-align: center;
+    color: rgb(0, 122, 255);
+    font-weight: 400;
+
+    &:first-child {
+      border-right: 1px solid #ebedf0;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css" href="../../containers/Pay/bolt_3_8.min.css">
+  <link rel="stylesheet" type="text/css" href="../../containers/Pay/main.css">
+
+</head>
+<body>
+<div class="scrollbar-content">
+  <div class="viewport">
+    <div class="overview" style="top: 0px;">
+      <div class="tab-container">
+        <p id="eWalletError" class="trans-error error-hide" style="color:white; background-color: #FD3209 ; padding-left: 15px; margin: 0px 15px; padding-bottom: 5px;     background-color: rgba(255, 42, 42,0.86);border-radius: 4px;">
+          <label style="margin-bottom: 0px;"></label>
+        </p>
+        <div id="netbanking-body" class="netbanking-body wallet-body">
+          <form role="form" class="form-netbanking">
+            <div class="row">
+              <div class="col-md-12" style="text-align:left;font-size:6px;">
+                <div class="icp-error-tooltip" id="eWalletErr">
+                  <span>Please select atleast one</span>
+                  <i class="icp-error-tooltip-i" data-icon="c"></i>
+                </div>
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="Paytm" data-cid="PAYTM">
+                        <span>
+                           <span class="walletBx paytm PAYTM">hide</span>
+                        </span>
+                      </span>
+                </label>
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="PhonePe/BHIM UPI" data-cid="PHONEPE">
+                        <span>
+                           <span class="walletBx phonepe/bhimupi PHONEPE">hide</span>
+                        </span>
+                      </span>
+                </label>
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="FreeCharge" data-cid="FREC">
+                        <span>
+                           <span class="walletBx freecharge FREC">hide</span>
+                        </span>
+                      </span>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" style="text-align: left;font-size:6px;">
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="OlaMoney(Postpaid+Wallet)" data-cid="OLAM">
+                        <span>
+                           <span class="walletBx olamoneypostpaidwallet OLAM">hide</span>
+                        </span>
+                      </span>
+                </label>
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="Airtel Money" data-cid="AMON">
+                        <span>
+                           <span class="walletBx airtelmoney AMON">hide</span>
+                        </span>
+                      </span>
+                </label>
+                <label class="radio-inline">
+                      <span href="#" style="cursor: pointer;">
+                        <input class="ex-wallet-data" type="radio" name="optWradio" value="Jio Money" data-cid="JIOM">
+                        <span>
+                           <span class="walletBx jiomoney JIOM">hide</span>
+                        </span>
+                      </span>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div style="position:relative">
+                <div class="icp-error-tooltip-selBank error-hide" id="walletBanksErr">
+                  <span>Please select wallet</span>
+                  <i class="icp-error-tooltip-i-selBank" data-icon="c"></i>
+                </div>
+                <select class="form-control select-another toDisabledElement activeOption selectedColor" id="eWalletBanks" value="">
+                  <option value="">Select another wallet</option>
+                  <option value="PAYTM">Paytm</option>
+                  <option value="PHONEPE">PhonePe/BHIM UPI</option>
+                  <option value="FREC">FreeCharge</option>
+                  <option value="OLAM">OlaMoney(Postpaid+Wallet)</option>
+                  <option value="AMON">Airtel Money</option>
+                  <option value="JIOM">Jio Money</option>
+                  <option value="PAYZ">HDFC Bank - PayZapp</option>
+                  <option value="YESW">YES PAY Wallet</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="pay-now ewallets-pay-now noBankToggle">
+        <button type="button" id="citrusExWalletButton" style="background-color:#000000;">Pay Now</button>
+        <div class="sCharge">* Convenience fee applicable
+          <span class="icon">
+                   <a id="ewallets-conveFee" class="conveFee" data-tooltip="">
+                     <i data-icon="j"></i>
+                   </a>
+                 </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

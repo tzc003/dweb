@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "release"]
+}
